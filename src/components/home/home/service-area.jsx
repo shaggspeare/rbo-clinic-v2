@@ -79,26 +79,26 @@ const ServiceArea = () => {
         style={{ backgroundImage: `url(/assets/img/shape/shape-bg-01.png)` }}
       >
         <div className="container">
-          <div className="row mb-125">
-            <div className="col-lg-12">
-              <div className="search-form">
-                <form action="#">
-                  <input type="text" placeholder="What are you looking for?" />
-                  <button className="tp-btn search-btn" type="submit">
-                    Search Here
-                    <i className="fa-light fa-magnifying-glass ml-5"></i>
-                  </button>
-                </form>
-              </div>
-            </div>
-          </div>
+          {/*<div className="row mb-125">*/}
+          {/*  <div className="col-lg-12">*/}
+          {/*    <div className="search-form">*/}
+          {/*      <form action="#">*/}
+          {/*        <input type="text" placeholder="What are you looking for?" />*/}
+          {/*        <button className="tp-btn search-btn" type="submit">*/}
+          {/*          Search Here*/}
+          {/*          <i className="fa-light fa-magnifying-glass ml-5"></i>*/}
+          {/*        </button>*/}
+          {/*      </form>*/}
+          {/*    </div>*/}
+          {/*  </div>*/}
+          {/*</div>*/}
           <div className="row align-items-center">
             <div className="col-lg-8 col-md-8 col-12">
               <div className="tp-section">
                 <span className="tp-section__sub-title left-line mb-20">
-                  our Services
+                  лікуємо
                 </span>
-                <h3 className="tp-section__title mb-50">Service Area</h3>
+                <h3 className="tp-section__title mb-50">Наші послуги</h3>
               </div>
             </div>
             <div className="col-lg-4 col-md-4 col-12">

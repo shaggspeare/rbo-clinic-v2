@@ -54,10 +54,10 @@ const Feedback = () => {
             <div className="col-lg-12">
               <div className="tp-section text-center">
                 <span className="tp-section__sub-title sub-title-white left-line-white right-line-white mb-25">
-                  Testimonial
+                  Відгуки
                 </span>
                 <h3 className="tp-section__title title-white mb-70">
-                  Customer Feedback
+                  Що про нас скажуть
                 </h3>
               </div>
             </div>

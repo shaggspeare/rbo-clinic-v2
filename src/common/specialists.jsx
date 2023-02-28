@@ -82,10 +82,10 @@ const Specialists = () => {
             <div className="col-lg-12">
               <div className="tp-section text-center">
                 <span className="tp-section__sub-title left-line right-line mb-25">
-                  Our Specialists
+                  наша спеціальність
                 </span>
                 <h3 className="tp-section__title title-white mb-85">
-                  Why Choose Us
+                  Чому обирають нас
                 </h3>
               </div>
             </div>
@@ -107,18 +107,6 @@ const Specialists = () => {
                 </div>
               </div>
             ))}
-          </div>
-          <div className="row text-center">
-            <div className="col-lg-12">
-              <div className="tp-choose-option">
-                <span>
-                  Laboratories Used For Scientific Research :
-                  <Link href="/">
-                    Take Many Forms<i className="fa-solid fa-arrow-right"></i>
-                  </Link>
-                </span>
-              </div>
-            </div>
           </div>
         </div>
       </section>

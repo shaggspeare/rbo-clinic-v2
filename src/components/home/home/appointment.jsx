@@ -11,17 +11,17 @@ const Appointment = () => {
             <div className="col-xxl-6 col-xl-5 col-lg-12 col-md-12 p-0">
               <div className="appoinment-thumb">
                 <Image
-                    src="/assets/img/banner/appoinment-01.jpg"
+                    src="/assets/img/background/serhii-pose.jpeg"
                     alt="appointment-img"
-                    width={800}
-                    height={500}
+                    width={1200}
+                    height={747}
                 />
               </div>
             </div>
             <div className="col-xxl-6 col-xl-7 col-lg-12 col-md-12 p-0">
               <div className="visitor-info">
                 <h4 className="appoinment-title mb-25">
-                  <i className="fa-light fa-file-signature"></i>Book your visit
+                  <i className="fa-light fa-file-signature"></i>Заплануйте свій візит
                 </h4>
                 <div className="visitor-form">
                   {/* form start */}

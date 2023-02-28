@@ -113,6 +113,7 @@
   text-align: center;
   & img {
     width: 220px;
+    object-fit: contain;
   }
 }
 .header-menu-box {
@@ -573,6 +574,7 @@
 .tp-mob-logo {
   & img {
     width: 220px;
+    object-fit: cover;
     @media #{$xs,$md} {
       width: 180px;
     }

@@ -3,6 +3,7 @@ import useSticky from "hooks/use-sticky";
 import Link from "next/link";
 import React, { useState } from "react";
 import NavMenu from "./nav-menu";
+import Image from "next/image";
 
 const HeaderThree = () => {
   const { sticky } = useSticky();
@@ -23,7 +24,12 @@ const HeaderThree = () => {
             <div className="col-md-4 col-10">
               <div className="tp-mob-logo">
                 <Link href="/">
-                  <img src="/assets/img/logo/logo.png" alt="logo" />
+                  <Image
+                      src="/assets/img/logo/logo-1.png"
+                      alt="logo"
+                      width={160}
+                      height={100}
+                  />
                 </Link>
               </div>
             </div>
@@ -49,7 +55,7 @@ const HeaderThree = () => {
                       <circle cx="2" cy="7" r="2" fill="#0E63FF" />
                       <circle cx="2" cy="12" r="2" fill="#0E63FF" />
                     </svg>
-                    <span>Help Desk :</span>+91 590 088 55
+                    <span>Телефон :</span>+38 096 3050004
                   </a>
                 </div>
                 <button

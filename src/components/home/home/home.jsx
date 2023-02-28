@@ -19,14 +19,14 @@ const HomeOne = () => {
       <ServiceArea />
       <About />
       <Counter />
-      <Gallery />
+      {/*<Gallery />*/}
       <Specialists />
       <Appointment />
       <Team />
       <Feedback />
-      <Brands />
-      <Cta_Area />
-      <Blog />
+      {/*<Brands />*/}
+      {/*<Cta_Area />*/}
+      {/*<Blog />*/}
     </>
   );
 };

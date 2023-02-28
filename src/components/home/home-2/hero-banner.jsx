@@ -7,37 +7,41 @@ const hero_slider = [
   {
     id: 1,
     title: (
-      <>
-        Our Passion is to <br /> Give you Better <br /> Service
-      </>
+        <>
+          Допоможемо Вам рухатись <br />
+          без болю і обмежень
+        </>
     ),
     des: (
-      <>
-        Your full service lab for clinical trials. Our mission is to ensure the{" "}
-        <br /> generation of accurate and precise findings
-      </>
+        <>
+          Провідна команда лікарів з Києва, що надають широкий спектр
+          <br />
+          медичної допомоги задля Вашого здоров`я та самопочуття
+        </>
     ),
     appointment: "Appointment",
     about: "About us",
-    img_1: "/assets/img/slider/slider-bg-1.png",
+    img_1: "/assets/img/slider/slider-bg-3.png",
     img_2: "/assets/img/slider/slider-bg-2.png",
   },
   {
     id: 2,
     title: (
-      <>
-        Our Passion is to <br /> Give you Better <br /> Service
-      </>
+        <>
+          Допоможемо Вам рухатись <br />
+          без болю і обмежень
+        </>
     ),
     des: (
-      <>
-        Your full service lab for clinical trials. Our mission is to ensure the{" "}
-        <br /> generation of accurate and precise findings
-      </>
+        <>
+          Провідна команда лікарів з Києва, що надають широкий спектр
+          <br />
+          медичної допомоги задля Вашого здоров`я та самопочуття
+        </>
     ),
-    appointment: "Appointment",
-    about: "About us",
-    img_1: "/assets/img/slider/slider-bg-3.png",
+    appointment: "Запис на прийом",
+    about: "про нас",
+    img_1: "/assets/img/slider/slider-bg-1.png",
     img_2: "/assets/img/slider/slider-bg-2.png",
   },
 ];

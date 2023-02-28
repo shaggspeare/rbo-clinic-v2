@@ -7,22 +7,22 @@ import VideoPopup from "@/modals/video-popup";
 
 // content
 const content = {
-  sub_title: "Welcome to Bioxlab",
+  sub_title: "Ласкаво просимо",
   title: (
     <>
-      passion for better <br />
-      Medicine
+      Допоможемо Вам рухатись <br />
+      без болю і обмежень
     </>
   ),
   des: (
     <>
-      Your full service lab for clinical trials. Our mission is to ensure the{" "}
+      Провідна команда лікарів з Києва, що надають широкий спектр
       <br />
-      generation of accurate and precise findings
+      медичної допомоги задля Вашого здоров`я та самопочуття
     </>
   ),
-  btn_text1: "Appointment",
-  btn_text2: "About us",
+  btn_text1: "Запис на прийом",
+  btn_text2: "про нас",
 };
 const { sub_title, title, des, btn_text1, btn_text2 } = content;
 
@@ -31,20 +31,20 @@ const hero_box = [
   {
     id: 1,
     icon: "flaticon-rating",
-    des: "100% Customer Satisfaction",
+    des: "Найкращі відгуки",
     color: "",
   },
   {
     id: 2,
     icon: "flaticon-target",
-    des: "Help and Acess is Our Mission",
+    des: "Завжди досягаємо цілі",
     color: "pink-icon",
     border: "pink-border",
   },
   {
     id: 3,
     icon: "flaticon-premium-badge",
-    des: "100% Quality Laboratory service",
+    des: "Гарантуємо результат",
     color: "green-icon",
     border: "green-border",
   },
@@ -98,13 +98,13 @@ const HeroBanner = () => {
           <div className="banner-scroll-btn">
             <a className="bannerscroll-icon" href="#tp-about-scroll">
               <i className="fa-light fa-computer-mouse"></i>
-              <span>Scroll Down</span>
+              <span>Крути вниз</span>
             </a>
           </div>
         </div>
         <div className="banner__shape d-none d-lg-block">
           <Image
-              src="/assets/img/banner/banner-01.png"
+              src="/assets/img/background/serhii-schema-2.jpg"
               alt="banner-img"
               width={800}
               height={500}

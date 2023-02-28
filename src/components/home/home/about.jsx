@@ -5,18 +5,18 @@ import React from "react";
 
 // content
 const content = {
-  left_img: "assets/img/about/about-bg-01.png",
+  left_img: "assets/img/background/sasha-pose-short.jpg",
   experience_count: 12,
   experience_count_text: (
     <>
-      Years of <br />
-      Experience
+      Років <br />
+      Досвіду
     </>
   ),
-  title: "About",
-  section_title: "Best Laboratory For Testing And Research",
+  title: "Про нас",
+  section_title: "Найкраща клініка у Вишгороді",
   section_sub_title:
-    " Your full service lab for clinical trials. Our mission is to ensure the generation of accurate and precise findings",
+    "Наша команда провідних спеціалістів, які кожного дня приїждають з Києва, щоб допомогти Вам бути здоровими та радіти кожному дню без болю і обмежень",
   section_des: (
     <>
       Exerci tation ullamcorper suscipit lobortis nisl aliquip ex ea commodo
