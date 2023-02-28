@@ -1,13 +1,13 @@
 // external
-import Link from "next/link";
-import Image from 'next/image'
-import { useState } from "react";
+import Link from 'next/link';
+import Image from 'next/image';
+import { useState } from 'react';
 // internal
-import VideoPopup from "@/modals/video-popup";
+import VideoPopup from '@/modals/video-popup';
 
 // content
 const content = {
-  sub_title: "Ласкаво просимо",
+  sub_title: 'Ласкаво просимо',
   title: (
     <>
       Допоможемо Вам рухатись <br />
@@ -21,8 +21,8 @@ const content = {
       медичної допомоги задля Вашого здоров`я та самопочуття
     </>
   ),
-  btn_text1: "Запис на прийом",
-  btn_text2: "про нас",
+  btn_text1: 'Запис на прийом',
+  btn_text2: 'про нас',
 };
 const { sub_title, title, des, btn_text1, btn_text2 } = content;
 
@@ -30,23 +30,26 @@ const { sub_title, title, des, btn_text1, btn_text2 } = content;
 const hero_box = [
   {
     id: 1,
-    icon: "flaticon-rating",
-    des: "Найкращі відгуки",
-    color: "",
+    icon: 'fa-brands fa-facebook',
+    des: 'Ми у Facebook',
+    color: '',
+    link: 'https://www.facebook.com/ruhbezobmezhen/',
   },
   {
     id: 2,
-    icon: "flaticon-target",
-    des: "Завжди досягаємо цілі",
-    color: "pink-icon",
-    border: "pink-border",
+    icon: 'fa-brands fa-instagram',
+    des: 'Ми в Instagram',
+    color: 'pink-icon',
+    border: 'pink-border',
+    link: 'https://www.instagram.com/doctor_vyshhorod/',
   },
   {
     id: 3,
-    icon: "flaticon-premium-badge",
-    des: "Гарантуємо результат",
-    color: "green-icon",
-    border: "green-border",
+    icon: 'fa-light fa-location-dot',
+    des: 'пр.Шевченка, 2Г, Вишгород',
+    color: 'green-icon',
+    border: 'green-border',
+    link: '/contact',
   },
 ];
 
@@ -74,19 +77,21 @@ const HeroBanner = () => {
               </div>
               <div className="banner__box-item">
                 <div className="row">
-                  {hero_box.map((item) => (
+                  {hero_box.map(item => (
                     <div key={item.id} className="col-xl-4 col-lg-4 col-md-6">
-                      <div
-                        className={`banner__item d-flex ${item.border} align-items-center mb-30 wow fadeInUp`}
-                        data-wow-delay=".2s"
-                      >
-                        <div className={`banner__item-icon ${item.color}`}>
-                          <i className={item.icon}></i>
+                      <Link href={item.link}>
+                        <div
+                          className={`banner__item d-flex ${item.border} align-items-center mb-30 wow fadeInUp`}
+                          data-wow-delay=".2s"
+                        >
+                          <div className={`banner__item-icon ${item.color}`}>
+                            <i className={item.icon}></i>
+                          </div>
+                          <div className="banner__item-content">
+                            <span>{item.des}</span>
+                          </div>
                         </div>
-                        <div className="banner__item-content">
-                          <span>{item.des}</span>
-                        </div>
-                      </div>
+                      </Link>
                     </div>
                   ))}
                 </div>
@@ -103,29 +108,17 @@ const HeroBanner = () => {
           </div>
         </div>
         <div className="banner__shape d-none d-lg-block">
-          <Image
-              src="/assets/img/background/serhii-schema-2.jpg"
-              alt="banner-img"
-              width={800}
-              height={500}
-          />
+          <Image src="/assets/img/background/serhii-schema-2.jpg" alt="banner-img" width={800} height={500} />
 
           <div className="banner__video-btn">
-            <button
-              onClick={() => setIsVideoOpen(true)}
-              className="banner__video-icon popup-video"
-            >
+            <button onClick={() => setIsVideoOpen(true)} className="banner__video-icon popup-video">
               <i className="fa-solid fa-play"></i>
             </button>
           </div>
         </div>
       </section>
       {/* video modal start */}
-      <VideoPopup
-        isVideoOpen={isVideoOpen}
-        setIsVideoOpen={setIsVideoOpen}
-        videoId={"d8w5SICzzxc"}
-      />
+      <VideoPopup isVideoOpen={isVideoOpen} setIsVideoOpen={setIsVideoOpen} videoId={'d8w5SICzzxc'} />
       {/* video modal end */}
     </>
   );

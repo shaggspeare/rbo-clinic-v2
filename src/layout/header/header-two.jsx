@@ -34,7 +34,7 @@ const HeaderTwo = () => {
             <div className="col-md-8 col-2">
               <div className="tp-mobile-bar d-flex align-items-center justify-content-end">
                 <div className="tp-bt-btn-banner d-none d-md-block d-xl-none mr-30">
-                  <a className="tp-bt-btn" href="tel:123456">
+                  <a className="tp-bt-btn" href="tel:+380963050004">
                     <svg
                       width="14"
                       height="19"
@@ -53,7 +53,7 @@ const HeaderTwo = () => {
                       <circle cx="2" cy="7" r="2" fill="#0E63FF" />
                       <circle cx="2" cy="12" r="2" fill="#0E63FF" />
                     </svg>
-                    <span>Телефон :</span>+38 096 3050004
+                    <span>Телефон :&nbsp;</span>+38 (096) 305 00 04, +38 (093) 305 00 04
                   </a>
                 </div>
                 <button

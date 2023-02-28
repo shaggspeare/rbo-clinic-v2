@@ -30,7 +30,7 @@ const Header = () => {
             <div className="col-md-8 col-2">
               <div className="tp-mobile-bar d-flex align-items-center justify-content-end">
                 <div className="tp-bt-btn-banner d-none d-md-block d-xl-none mr-30">
-                  <a className="tp-bt-btn" href="tel:123456">
+                  <a className="tp-bt-btn" href="tel:+380963050004">
                     <svg
                       width="14"
                       height="19"
@@ -49,7 +49,7 @@ const Header = () => {
                       <circle cx="2" cy="7" r="2" fill="#0E63FF" />
                       <circle cx="2" cy="12" r="2" fill="#0E63FF" />
                     </svg>
-                    <span>Телефон :</span>+38 096 3050004
+                    <span>Телефон :&nbsp;</span>+38 (096) 305 00 04, +38 (093) 305 00 04
                   </a>
                 </div>
                 <button
@@ -85,16 +85,16 @@ const Header = () => {
                   </Link>
                 </div>
               </div>
-              <div className="col-xxl-7 col-lg-6">
+              <div className="col-xxl-6 col-lg-6">
                 <div className="main-menu">
                   <nav id="mobile-menu">
                     <NavMenu />
                   </nav>
                 </div>
               </div>
-              <div className="col-xxl-3 col-lg-3 d-flex align-items-center justify-content-end">
+              <div className="col-xxl-4 col-lg-4 d-flex align-items-center justify-content-end">
                 <div className="tp-bt-btn-banner">
-                  <a className="tp-bt-btn" href="tel:123456">
+                  <a className="tp-bt-btn" href="tel:+380963050004">
                     <svg
                       width="14"
                       height="19"
@@ -113,7 +113,7 @@ const Header = () => {
                       <circle cx="2" cy="7" r="2" fill="#0E63FF" />
                       <circle cx="2" cy="12" r="2" fill="#0E63FF" />
                     </svg>
-                    <span>Телефон: </span>+38(096)305 00 04
+                    <span>Телефон :&nbsp;</span>+38 (096) 305 00 04, +38 (093) 305 00 04
                   </a>
                 </div>
               </div>

@@ -5,7 +5,11 @@
 /*----------------------------------------*/
 
 .counter {
+  * {
+    font-family: var(--tp-ff-heading);
+  }
   &__item {
+
     border: 1px solid var(--tp-border-primary);
     padding: 75px 40px 70px 55px;
     border-radius: 10px;

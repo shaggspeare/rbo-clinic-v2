@@ -251,6 +251,9 @@
 .bannerscroll-icon {
     display: flex;
     align-items: center;
+    .fa-computer-mouse {
+        transform: rotate(90deg);
+    }
 }
 .bannerscroll {
     position: relative;
