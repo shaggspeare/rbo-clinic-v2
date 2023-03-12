@@ -1,10 +1,9 @@
-import Link from "next/link";
-import React, { useState } from "react";
-import NavMenu from "./nav-menu";
-import useSticky from "hooks/use-sticky";
-import Sidebar from "@/common/sidebar";
-import Image from "next/image";
-
+import Link from 'next/link';
+import React, { useState } from 'react';
+import NavMenu from './nav-menu';
+import useSticky from 'hooks/use-sticky';
+import Sidebar from '@/common/sidebar';
+import Image from 'next/image';
 
 const Header = () => {
   const { sticky } = useSticky();
@@ -14,9 +13,7 @@ const Header = () => {
     <>
       <div
         id="header-mob-sticky"
-        className={`tp-mobile-header-area pt-15 pb-15 d-xl-none ${
-          sticky ? "header-sticky" : ""
-        } `}
+        className={`tp-mobile-header-area pt-15 pb-15 d-xl-none ${sticky ? 'header-sticky' : ''} `}
       >
         <div className="container">
           <div className="row align-items-center">
@@ -31,13 +28,7 @@ const Header = () => {
               <div className="tp-mobile-bar d-flex align-items-center justify-content-end">
                 <div className="tp-bt-btn-banner d-none d-md-block d-xl-none mr-30">
                   <a className="tp-bt-btn" href="tel:+380963050004">
-                    <svg
-                      width="14"
-                      height="19"
-                      viewBox="0 0 14 19"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                    <svg width="14" height="19" viewBox="0 0 14 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <circle cx="2" cy="2" r="2" fill="#0E63FF" />
                       <circle cx="7" cy="2" r="2" fill="#0E63FF" />
                       <circle cx="12" cy="2" r="2" fill="#0E63FF" />
@@ -52,10 +43,7 @@ const Header = () => {
                     <span>Телефон :&nbsp;</span>+38 (096) 305 00 04, +38 (093) 305 00 04
                   </a>
                 </div>
-                <button
-                  onClick={() => setIsActive(true)}
-                  className="tp-menu-toggle"
-                >
+                <button onClick={() => setIsActive(true)} className="tp-menu-toggle">
                   <i className="far fa-bars"></i>
                 </button>
               </div>
@@ -65,23 +53,13 @@ const Header = () => {
       </div>
 
       <header className="d-none d-xl-block">
-        <div
-          className={`header__area tp-home-one ${
-            sticky ? "header-sticky" : ""
-          }`}
-          id="header-sticky"
-        >
+        <div className={`header__area tp-home-one ${sticky ? 'header-sticky' : ''}`} id="header-sticky">
           <div className="container-fluid">
             <div className="row align-items-center">
               <div className="col-xxl-2 col-lg-3">
                 <div className="logo">
                   <Link href="/">
-                    <Image
-                        src="/assets/img/logo/logo-1.png"
-                        alt="logo"
-                        width={160}
-                        height={100}
-                    />
+                    <Image src="/assets/img/logo/logo-1.png" alt="logo" width={160} height={100} />
                   </Link>
                 </div>
               </div>
@@ -94,27 +72,19 @@ const Header = () => {
               </div>
               <div className="col-xxl-4 col-lg-4 d-flex align-items-center justify-content-end">
                 <div className="tp-bt-btn-banner">
-                  <a className="tp-bt-btn" href="tel:+380963050004">
-                    <svg
-                      width="14"
-                      height="19"
-                      viewBox="0 0 14 19"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <circle cx="2" cy="2" r="2" fill="#0E63FF" />
-                      <circle cx="7" cy="2" r="2" fill="#0E63FF" />
-                      <circle cx="12" cy="2" r="2" fill="#0E63FF" />
-                      <circle cx="12" cy="7" r="2" fill="#0E63FF" />
-                      <circle cx="12" cy="12" r="2" fill="#0E63FF" />
-                      <circle cx="7" cy="7" r="2" fill="#0E63FF" />
-                      <circle cx="7" cy="12" r="2" fill="#0E63FF" />
-                      <circle cx="7" cy="17" r="2" fill="#0E63FF" />
-                      <circle cx="2" cy="7" r="2" fill="#0E63FF" />
-                      <circle cx="2" cy="12" r="2" fill="#0E63FF" />
-                    </svg>
-                    <span>Телефон :&nbsp;</span>+38 (096) 305 00 04, +38 (093) 305 00 04
-                  </a>
+                  <div className="phone-container">
+                    <i className="fa-regular fa-phone phone-container__icon"></i>
+                    <div className="phone-container__label">Телефонуйте:&nbsp;</div>
+                    <div className="phone-container__body">
+                      <a className="" href="tel:+380963050004">
+                        +38 (096) 305 00 04
+                      </a>
+                      <br />
+                      <a className="" href="tel:+380933050004">
+                        +38 (093) 305 00 04
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

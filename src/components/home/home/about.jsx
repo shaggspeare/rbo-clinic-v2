@@ -1,42 +1,50 @@
-import Count from "@/common/count";
-import Link from "next/link";
-import React from "react";
-
+import Count from '@/common/count';
+import Link from 'next/link';
+import React from 'react';
 
 // content
 const content = {
-  left_img: "assets/img/background/sasha-pose-short.jpg",
-  experience_count: 12,
+  left_img: 'assets/img/background/sasha-pose-short.jpg',
+  experience_count: 5,
   experience_count_text: (
     <>
-      Років <br />
-      Досвіду
+      Років <br />у Вишгороді
     </>
   ),
-  title: "Про нас",
-  section_title: "Найкраща клініка у Вишгороді",
+  title: 'Про нас',
+  section_title: 'Медичний центр "Рух без обмежень"',
   section_sub_title:
-    "Наша команда провідних спеціалістів, які кожного дня приїждають з Києва, щоб допомогти Вам бути здоровими та радіти кожному дню без болю і обмежень",
+    '- це сучасний заклад, в якому поєднуються\n' +
+    'досвід вузьких спеціалістів та індивідуальний кваліфікований підхід до кожного пацієнта з приводу\n' +
+    'консультації, обʼєктивних обетежень та \n' +
+    'новітніх методів лікування.',
   section_des: (
     <>
-      Exerci tation ullamcorper suscipit lobortis nisl aliquip ex ea commodo
-      claritatem insitamconse quat.Exerci tation ullamcorper suscipit loborti
-      excommodo habent claritatem insitamconse quat.Exerci tationlobortis nisl
-      aliquip ex ea commodo habent claritatem insitamconse quat.
+      Наші пацієнти звертаються до нас:<br />
+      - з проблемами гострих і хронічних захворювань хребта та суглобів;<br />
+      - операційної, післяопераційної та реабілітаційної допомоги;<br />
+      - профілактики та підтримки опорно - рухового апарату;<br />
+      <br />
+      <br />
+      <br />
+      Базуємо нашу допомогу на таких принципах:
     </>
   ),
   about_info_list: [
     {
-      text: "Extramural Funding",
+      text: 'Рух без болю',
     },
     {
-      text: "Bacteria Markers",
+      text: 'Рух без обмежень',
     },
     {
-      text: "Nam nec mi euismod euismod",
+      text: 'Турбота про пацієнта',
     },
     {
-      text: "In aliquet dui nec lectus",
+      text: 'Швидкий результат',
+    },
+    {
+      text: 'Індивідуальний підхід',
     },
   ],
 };
@@ -59,10 +67,7 @@ const About = () => {
         <div className="container">
           <div className="row">
             <div className="col-xl-6 col-lg-12">
-              <div
-                className="about__thumb mb-60 wow fadeInLeft"
-                data-wow-delay=".4s"
-              >
+              <div className="about__thumb mb-60 wow fadeInLeft" data-wow-delay=".4s">
                 <div className="about__img">
                   <img src={left_img} alt="about-bg-img" />
                   <div className="about__exprience">
@@ -75,19 +80,12 @@ const About = () => {
               </div>
             </div>
             <div className="col-xl-6 col-lg-12">
-              <div
-                className="tp-about__content pt-125 ml-60 mb-50 wow fadeInRight"
-                data-wow-delay=".4s"
-              >
+              <div className="tp-about__content pt-125 ml-60 mb-50 wow fadeInRight" data-wow-delay=".4s">
                 <div className="tp-section">
-                  <span className="tp-section__sub-title left-line mb-25">
-                    {title}
-                  </span>
-                  <h3 className="tp-section__title tp-ab-sm-title mb-45">
-                    {section_title}
-                  </h3>
+                  <span className="tp-section__sub-title left-line mb-25">{title}</span>
+                  <h3 className="tp-section__title tp-ab-sm-title mb-45">{section_title}</h3>
                   <i>{section_sub_title}</i>
-                  <p className=" mr-20 mb-45">{section_des}</p>
+                  <p className=" mr-20 mb-25">{section_des}</p>
                 </div>
                 <div className="tp-about__info-list mb-55">
                   <ul>
@@ -100,10 +98,7 @@ const About = () => {
                 </div>
                 <div className="tp-about__btn">
                   <Link className="tp-btn" href="/about">
-                    Our HIstory
-                  </Link>
-                  <Link className="tp-btn-second ml-25" href="/about">
-                    About us
+                    детальніше
                   </Link>
                 </div>
               </div>

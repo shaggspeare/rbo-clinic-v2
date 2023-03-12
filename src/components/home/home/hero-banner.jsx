@@ -11,14 +11,13 @@ const content = {
   title: (
     <>
       Допоможемо Вам рухатись <br />
-      без болю і обмежень
+      без болю та обмежень
     </>
   ),
   des: (
     <>
-      Провідна команда лікарів з Києва, що надають широкий спектр
-      <br />
-      медичної допомоги задля Вашого здоров`я та самопочуття
+      Лікарі з провідних клінік Києва, надають широкий спектр професійної медичної допомоги
+      та застосовують новітні технології, щоб ви були здорові та раділи кожному дню.
     </>
   ),
   btn_text1: 'Запис на прийом',
@@ -110,15 +109,15 @@ const HeroBanner = () => {
         <div className="banner__shape d-none d-lg-block">
           <Image src="/assets/img/background/serhii-schema-2.jpg" alt="banner-img" width={800} height={500} />
 
-          <div className="banner__video-btn">
-            <button onClick={() => setIsVideoOpen(true)} className="banner__video-icon popup-video">
-              <i className="fa-solid fa-play"></i>
-            </button>
-          </div>
+          {/*<div className="banner__video-btn">*/}
+          {/*  <button onClick={() => setIsVideoOpen(true)} className="banner__video-icon popup-video">*/}
+          {/*    <i className="fa-solid fa-play"></i>*/}
+          {/*  </button>*/}
+          {/*</div>*/}
         </div>
       </section>
       {/* video modal start */}
-      <VideoPopup isVideoOpen={isVideoOpen} setIsVideoOpen={setIsVideoOpen} videoId={'d8w5SICzzxc'} />
+      {/*<VideoPopup isVideoOpen={isVideoOpen} setIsVideoOpen={setIsVideoOpen} videoId={'d8w5SICzzxc'} />*/}
       {/* video modal end */}
     </>
   );

@@ -13,7 +13,7 @@
         display: inline-block;
     }
     &__title {
-        font-size: 55px;
+        font-size: 52px;
         font-weight: 800;
         color: var(--tp-heading-primary);
         text-transform: capitalize;
@@ -23,10 +23,10 @@
             } 
         }
         @media #{$lg} {
-            font-size: 48px;
+            font-size: 44px;
         }
         @media #{$md} {
-            font-size: 48px;
+            font-size: 40px;
         }
         @media #{$xs} {
             font-size: 30px;

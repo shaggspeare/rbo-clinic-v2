@@ -21,7 +21,7 @@ const Appointment = () => {
             <div className="col-xxl-6 col-xl-7 col-lg-12 col-md-12 p-0">
               <div className="visitor-info">
                 <h4 className="appoinment-title mb-25">
-                  <i className="fa-light fa-file-signature"></i>Заплануйте свій візит
+                  <i className="fa-light fa-file-signature"></i>Записатися на прийом
                 </h4>
                 <div className="visitor-form">
                   {/* form start */}

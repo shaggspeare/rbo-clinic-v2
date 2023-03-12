@@ -106,17 +106,16 @@ const HeaderTwo = () => {
                       <circle cx="2" cy="7" r="2" fill="#0E63FF" />
                       <circle cx="2" cy="12" r="2" fill="#0E63FF" />
                     </svg>
-                    <span>Help Desk :</span>
-                    <a href="tel:+9159008855"> +91 590 088 55 </a>
+                    <span>Телефон :&nbsp;</span>
+                    <a href="tel:380963050004">+38 (096) 305 00 04, +38 (093) 305 00 04 </a>
                   </div>
                 </div>
                 <div className="col-lg-8">
                   <div className="header-time">
                     <span>
-                      <i className="fa-light fa-clock-ten"></i> Monday - Friday
-                      09:00 am - 05:00 Pm
+                      <i className="fa-light fa-clock-ten"></i> Понеділок - Субота
+                      09:00 - 18:00
                     </span>
-                    <span>Monday - Friday 09:00 am - 05:00 Pm</span>
                   </div>
                 </div>
               </div>
@@ -132,92 +131,8 @@ const HeaderTwo = () => {
                 </div>
                 <div className="col-lg-5">
                   <div className="header-cart-order d-flex align-items-center justify-content-end">
-                    <div className="header-cart-list  d-flex align-items-center justify-content-end mr-50">
-                      <button
-                        onClick={() => setIsActive(true)}
-                        className="tp-menu-toggle mr-40"
-                      >
-                        <i className="fa-solid fa-list"></i>
-                      </button>
-
-                      <div className="tp-cart-icon-area">
-                        <button>
-                          <i className="fa-solid fa-basket-shopping"></i>
-                        </button>
-                        <div className="tpcarticon">
-                          <ul>
-                            <li>
-                              <div className="tpcarticon__item">
-                                <div className="tpcarticon__img">
-                                  <img
-                                    src="/assets/img/shop/shop-05.jpg"
-                                    alt=""
-                                  />
-                                </div>
-                                <div className="tpcarticon__content">
-                                  <span className="tpcarticon__content-title">
-                                    <Link href="/shop">Stethoscope Superb</Link>
-                                  </span>
-                                  <div className="tpcarticon__cart-price">
-                                    <span className="new">$162.8</span>
-                                    <span>
-                                      <del>$229.9</del>
-                                    </span>
-                                  </div>
-                                </div>
-                                <div className="tpcarticon__del">
-                                  <a href="#">
-                                    <i className="far fa-trash-alt"></i>
-                                  </a>
-                                </div>
-                              </div>
-                            </li>
-                            <li>
-                              <div className="tpcarticon__item">
-                                <div className="tpcarticon__img">
-                                  <img
-                                    src="/assets/img/shop/shop-09.jpg"
-                                    alt=""
-                                  />
-                                </div>
-                                <div className="tpcarticon__content">
-                                  <span className="tpcarticon__content-title">
-                                    <Link href="/shop">Sphygmomanometer</Link>
-                                  </span>
-                                  <div className="tpcarticon__cart-price">
-                                    <span className="new">$139.9</span>
-                                    <span>
-                                      <del>$229.9</del>
-                                    </span>
-                                  </div>
-                                </div>
-                                <div className="tpcarticon__del">
-                                  <a href="#">
-                                    <i className="far fa-trash-alt"></i>
-                                  </a>
-                                </div>
-                              </div>
-                            </li>
-                            <li>
-                              <div className="tpcarticon__total-price">
-                                <span className="f-left">Total:</span>
-                                <span className="f-right">$300.0</span>
-                              </div>
-                            </li>
-                            <li>
-                              <div className="tpcarticon__checkout-link">
-                                <Link href="/cart">Shopping Cart</Link>
-                                <Link className="sec-red-btn" href="/checkout">
-                                  Checkout
-                                </Link>
-                              </div>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
                     <Link className="header-bottom-btn" href="/about">
-                      Book Appointment
+                      записатися
                     </Link>
                   </div>
                 </div>

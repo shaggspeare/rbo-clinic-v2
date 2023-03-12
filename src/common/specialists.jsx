@@ -7,11 +7,10 @@ const choose = [
   {
     id: 1,
     color: "",
-    icon: "flaticon-microscope",
+    icon: "flaticon-thinking",
     title: (
       <>
-        High Quality <br />
-        Services
+        Професіоналізм
       </>
     ),
     des: (
@@ -24,11 +23,11 @@ const choose = [
   {
     id: 2,
     color: "pink-icon",
-    icon: "flaticon-thinking",
+    icon: "flaticon-user",
     title: (
       <>
-        Fast Working <br />
-        Process
+        Індивідуальний <br />
+        підхід
       </>
     ),
     des: (
@@ -41,10 +40,10 @@ const choose = [
   {
     id: 3,
     color: "green-icon",
-    icon: "flaticon-24-hours-1",
+    icon: "flaticon-target",
     title: (
       <>
-        24/7 Customer <br /> Support
+        Швидкий <br /> Результат
       </>
     ),
     des: (
@@ -57,10 +56,10 @@ const choose = [
   {
     id: 4,
     color: "sky-icon",
-    icon: "flaticon-team",
+    icon: "flaticon-24-hours-1",
     title: (
       <>
-        We have <br /> Expert Team
+       Турбота <br /> про пацієнта
       </>
     ),
     des: (
@@ -102,7 +101,7 @@ const Specialists = () => {
                   </div>
                   <div className="tp-choose__content">
                     <h4 className="tp-choose__title mb-20">{item.title}</h4>
-                    <p>{item.des}</p>
+                    {/*<p>{item.des}</p>*/}
                   </div>
                 </div>
               </div>

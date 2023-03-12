@@ -22,7 +22,7 @@
       z-index: 9;
       & > a {
         padding: 15px 0;
-        margin: 0 30px;
+        margin: 0 24px;
         font-size: 14px;
         color: var(--tp-text-2);
         font-weight: 700;
@@ -144,7 +144,7 @@
   }
 }
 .header-top-mob {
-  margin-left: 80px;
+  margin-left: 40px;
   font-size: 15px;
   line-height: 1;
   font-weight: 700;
@@ -911,6 +911,31 @@
     background: var(--tp-common-white);
     & .tp-bt-btn {
       box-shadow: rgba(100, 100, 111, 0.1) 1px 5px 20px 1px;
+    }
+  }
+}
+
+.phone-container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 6px;
+  padding: 10px 20px;
+  box-shadow: rgba(100, 100, 111, 0.1) .5px .5px 5px .5px;
+
+  &__icon {
+    font-size: 30px;
+    color: var(--tp-icon-green);
+  }
+  &__label {
+    margin-left: 15px;
+    font-weight: 800;
+  }
+  &__body {
+    margin-left: 10px;
+    font-size: 14px;
+    & a:hover {
+      color: var(--tp-icon-green);
     }
   }
 }
