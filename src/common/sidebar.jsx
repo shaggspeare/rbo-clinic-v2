@@ -46,11 +46,7 @@ const Sidebar = ({ isActive, setIsActive }) => {
         >
           <i className="fal fa-times"></i>
         </button>
-        <div className="tpsideinfo__logo mb-40">
-          <Link href="/">
-            <img src="/assets/img/logo/white-logo.png" alt="logo" />
-          </Link>
-        </div>
+
 
         <div className="mobile-menu mean-container d-block d-lg-none">
           <div className="mean-bar">
@@ -59,19 +55,16 @@ const Sidebar = ({ isActive, setIsActive }) => {
         </div>
 
         <div className="tpsideinfo__content mb-60">
-          <p className=" d-none d-xl-block">
-            Our mission is to ensure the generation of accurate and precise
-            findings.
-          </p>
+
           <span>Contact Us</span>
           <a href="#">
-            <i className="fa-solid fa-star"></i>Ta-134/A, Gulshan Badda Link
+            <i className="fa-solid fa-star"></i>Пр.Шевченка 2Г, Вишгород
           </a>
-          <a href="tel:61383766284">
-            <i className="fa-solid fa-star"></i>61 383 766 284
+          <a href="tel:+380963050004">
+            <i className="fa-solid fa-star"></i>+38 (096) 305 00 04
           </a>
-          <a href="mailto:noreply@envato.com">
-            <i className="fa-solid fa-star"></i>noreply@envato.com
+          <a href="tel:+380933050004">
+            <i className="fa-solid fa-star"></i>+38 (093) 305 00 04
           </a>
         </div>
         <div className="tpsideinfo__content-inputarea mb-60 d-none d-xl-block">
