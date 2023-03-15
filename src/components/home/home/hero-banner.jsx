@@ -107,7 +107,7 @@ const HeroBanner = () => {
           </div>
         </div>
         <div className="banner__shape d-none d-lg-block">
-          <Image src="/assets/img/background/serhii-schema-2.jpg" alt="banner-img" width={800} height={500} />
+          <Image src="/assets/img/background/serhii-pose-narrow.jpg" alt="banner-img" width={800} height={500} />
 
           {/*<div className="banner__video-btn">*/}
           {/*  <button onClick={() => setIsVideoOpen(true)} className="banner__video-icon popup-video">*/}

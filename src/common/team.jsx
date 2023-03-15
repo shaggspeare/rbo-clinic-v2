@@ -94,7 +94,7 @@ const Team = () => {
                         {/*<p>{item.des}</p>*/}
                         <div className="tp-team__social">
                           {item.social_links.map((l, i) => (
-                            <Link key={i} className={l.color} href={l.link}>
+                            <Link key={i} className={l.color} href={l.link} target={l.target}>
                               <i className={l.icon}></i>
                             </Link>
                           ))}

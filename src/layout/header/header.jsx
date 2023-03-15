@@ -56,7 +56,7 @@ const Header = () => {
         <div className={`header__area tp-home-one ${sticky ? 'header-sticky' : ''}`} id="header-sticky">
           <div className="container-fluid">
             <div className="row align-items-center">
-              <div className="col-xxl-2 col-lg-3">
+              <div className="col-xxl-2 col-lg-2">
                 <div className="logo">
                   <Link href="/">
                     <Image src="/assets/img/logo/logo-1.png" alt="logo" width={160} height={100} />

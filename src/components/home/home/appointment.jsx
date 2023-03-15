@@ -6,12 +6,12 @@ const Appointment = () => {
   return (
     <>
       <section className="appoinment-area">
-        <div className="container-fluid">
+        <div>
           <div className="row">
             <div className="col-xxl-6 col-xl-5 col-lg-12 col-md-12 p-0">
               <div className="appoinment-thumb">
                 <Image
-                    src="/assets/img/background/serhii-pose.jpeg"
+                    src="/assets/img/background/reception.jpeg"
                     alt="appointment-img"
                     width={1200}
                     height={747}

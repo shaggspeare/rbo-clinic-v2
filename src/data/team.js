@@ -13,7 +13,15 @@ const team_data = [
     name: 'Ячник Сергій Петрович',
     title: 'Лікар невролог-вертебролог, мануальний терапевт, остеопат',
     des: ' Providing insight-driven transformation to investment banks, wealth and asset mana, exchanges, Finance',
-    social_links: [],
+    social_links: [
+      {
+        link: 'https://doc.ua/ua/doctor/vyshgorod/sergej-yachnik',
+        target: '_blank',
+        icon: 'fa-solid fa-user-doctor',
+        name: 'doc.ua',
+        color: 'tp-twitter',
+      },
+    ],
   },
   {
     id: 3,
@@ -28,6 +36,13 @@ const team_data = [
         icon: 'fab fa-instagram',
         name: 'Instagram',
         color: 'tp-instagram',
+      },
+      {
+        link: 'https://doc.ua/ua/doctor/vyshgorod/aleksandr-yachnik',
+        target: '_blank',
+        icon: 'fa-solid fa-user-doctor',
+        name: 'doc.ua',
+        color: 'tp-twitter',
       },
     ],
   },
