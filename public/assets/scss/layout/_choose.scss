@@ -6,7 +6,11 @@
 
 .tp-choose {
     &__item {
+
         @media #{$lg,$md,$xs} {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             margin-left: 0;
         }
         &:hover {

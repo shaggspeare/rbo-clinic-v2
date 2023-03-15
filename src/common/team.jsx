@@ -91,10 +91,10 @@ const Team = () => {
                         <span className="tp-team__position mb-30">
                           {item.title}
                         </span>
-                        <p>{item.des}</p>
+                        {/*<p>{item.des}</p>*/}
                         <div className="tp-team__social">
                           {item.social_links.map((l, i) => (
-                            <Link key={i} className={l.color} href="#">
+                            <Link key={i} className={l.color} href={l.link}>
                               <i className={l.icon}></i>
                             </Link>
                           ))}

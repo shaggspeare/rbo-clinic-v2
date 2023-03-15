@@ -56,6 +56,8 @@
     }
   }
   &__social {
+    display: flex;
+    justify-content: center;
     & a {
       margin-right: 12px;
       color: var(--tp-icon-blue);
@@ -139,14 +141,14 @@
     }
   }
 }
-.tp-skype {
+.tp-instagram {
   & i {
-    color: var(--tp-icon-skype);
+    color: var(--tp-icon-pink);
   }
   &:hover {
-    &.tp-skype i {
-      border: 1px solid var(--tp-icon-skype);
-      background-color: var(--tp-icon-skype);
+    &.tp-instagram i {
+      border: 1px solid var(--tp-icon-pink);
+      background-color: var(--tp-icon-pink);
     }
   }
 }

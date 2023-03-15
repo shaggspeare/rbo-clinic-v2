@@ -75,7 +75,7 @@ const choose = [
 const Specialists = () => {
   return (
     <>
-      <section className="choose-area theme-bg pt-120 pb-130">
+      <section className="choose-area theme-bg pt-100 pb-100">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -93,7 +93,7 @@ const Specialists = () => {
             {choose.map((item) => (
               <div key={item.id} className="col-xl-3 col-md-6">
                 <div
-                  className="tp-choose__item ml-75 mb-100 wow fadeInUp"
+                  className="tp-choose__item ml-75 mb-50 wow fadeInUp"
                   data-wow-delay=".8s"
                 >
                   <div className={`tp-choose__icon ${item.color} mb-40`}>

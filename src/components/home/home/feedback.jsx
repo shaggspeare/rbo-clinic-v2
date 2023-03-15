@@ -71,13 +71,13 @@ const Feedback = () => {
             {feedback.map((item) => (
               <SwiperSlide key={item.id}>
                 <div className="tp-testi p-relative mb-70">
-                  <div className="tp-testi__avata">
-                    <img src={item.img} alt="testimonial-avata" />
+                  <div className="tp-testi__avatar">
+                    <i className="flaticon-user tp-testi__avatar-icon"></i>
                   </div>
                   <div className="tp-testi__content text-center">
                     <p>{item.des}</p>
-                    <h5 className="tp-testi__avata-title">{item.name}</h5>
-                    <span className="tp-testi__ava-position">{item.title}</span>
+                    <h5 className="tp-testi__avatar-title">{item.name}</h5>
+                    {/*<span className="tp-testi__ava-position">{item.title}</span>*/}
                   </div>
                 </div>
               </SwiperSlide>
