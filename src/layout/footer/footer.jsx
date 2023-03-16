@@ -23,19 +23,14 @@ const footer_content = {
         { name: 'Пр.Шевченка 2Г, Вишгород' },
         { name: '+38 (096) 305 00 04' },
         { name: '+38 (093) 305 00 04' },
-        { name: 'Часи прийому: 9:00-19:00' },
+        { name: '---------------------------------------' },
+        { name: 'Часи прийому:' },
+        { name: 'Пн-Пт: 9:00 - 19:00' },
+        { name: 'Сб: 9:00 - 15:00' },
       ],
     },
   ],
-  contact_info: [
-    {
-      id: 1,
-      title: 'Quick Links',
-      support_info: [' 27 Division St, New York, NY 10002, USA', '(+880)52462545632', ' support@example.com'],
-      office_time: 'Office Hours: 9AM - 4PM',
-      off_day: ' Friday - Wekend Day',
-    },
-  ],
+  contact_info: [],
   copy_right_text: (
     <>
       © Copyright © {new Date().getFullYear()}
@@ -54,7 +49,10 @@ const Footer = () => {
             <div className="row">
               <div className="col-xl-4 col-lg-4 col-md-6">
                 <div className="footer-widget footer-col-1 mb-50 wow fadeInUp" data-wow-delay=".2s">
-                  <h4 className="footer-widget__title mb-30">Медичний центр<br /> &#34;Рух без обмежень&#34;</h4>
+                  <h4 className="footer-widget__title mb-30">
+                    Медичний центр
+                    <br /> &#34;Рух без обмежень&#34;
+                  </h4>
                   <p>
                     Звертайтесь до нас:
                     <br />
@@ -86,7 +84,6 @@ const Footer = () => {
                   </div>
                 </div>
               ))}
-
             </div>
           </div>
         </div>

@@ -19,7 +19,7 @@
         padding:130px 15px;
     }
 }
-.appoinment-title {
+.appointment-title {
     & i {
         color: var(--tp-icon-blue);
         margin-right: 15px;
@@ -175,4 +175,14 @@
             }
         }
     }
+}
+
+.visit-success {
+    margin-top: 20px;
+    color: var(--tp-theme-secondary);
+}
+
+.visit-error {
+    margin-top: 20px;
+    color: var(--tp-icon-red);
 }

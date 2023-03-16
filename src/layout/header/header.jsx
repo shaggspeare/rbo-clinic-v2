@@ -73,8 +73,7 @@ const Header = () => {
               <div className="col-xxl-4 col-lg-4 d-flex align-items-center justify-content-end">
                 <div className="tp-bt-btn-banner">
                   <div className="phone-container">
-                    <i className="fa-regular fa-phone phone-container__icon"></i>
-                    <div className="phone-container__label">Телефонуйте:&nbsp;</div>
+                    <i className="fa-solid fa-phone phone-container__icon"></i>
                     <div className="phone-container__body">
                       <a className="" href="tel:+380963050004">
                         +38 (096) 305 00 04

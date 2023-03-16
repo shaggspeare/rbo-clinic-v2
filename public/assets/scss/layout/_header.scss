@@ -918,22 +918,20 @@
 .phone-container {
   display: flex;
   align-items: center;
-  background-color: white;
+  background-color: var(--tp-theme-blue);
   border-radius: 6px;
   padding: 10px 20px;
   box-shadow: rgba(100, 100, 111, 0.1) .5px .5px 5px .5px;
+  color: var(--tp-common-white);
 
   &__icon {
-    font-size: 30px;
-    color: var(--tp-icon-green);
-  }
-  &__label {
-    margin-left: 15px;
-    font-weight: 800;
+    font-size: 32px;
+    color: var(--tp-common-white);
   }
   &__body {
-    margin-left: 10px;
-    font-size: 14px;
+    margin-left: 30px;
+    font-size: 16px;
+    font-weight: 500;
     & a:hover {
       color: var(--tp-icon-green);
     }
