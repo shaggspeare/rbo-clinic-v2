@@ -5,7 +5,7 @@ import Image from 'next/image';
 const Appointment = () => {
   return (
     <>
-      <section className="appoinment-area">
+      <section className="appoinment-area" id='appointment-home'>
         <div>
           <div className="row">
             <div className="col-xxl-6 col-xl-5 col-lg-12 col-md-12 p-0">
