@@ -1,6 +1,20 @@
 import React, { useState } from 'react';
+import { useForm } from 'react-hook-form';
 
 const AppointForm = () => {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm({
+    mode: 'onSubmit',
+    defaultValues: {
+      name: '',
+      phone: '',
+      message: '',
+    },
+  });
+
   const [name, setName] = useState('');
   const [phone, setPhone] = useState('');
   const [message, setMessage] = useState('');
@@ -9,8 +23,7 @@ const AppointForm = () => {
   const [showSuccessMessage, setShowSuccessMessage] = useState(false);
   const [showFailureMessage, setShowFailureMessage] = useState(false);
 
-  const handleSubmit = async e => {
-    e.preventDefault();
+  const onSubmit = async e => {
 
     setButtonText('Відправляємо');
     const res = await fetch('/api/sendgrid', {
@@ -40,18 +53,25 @@ const AppointForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit(onSubmit)}>
       <div className="row">
         <div className="col-lg-6">
           <div className="visitor-form__input">
             <input
               type="text"
               placeholder="Ваше ім'я"
-              value={name}
-              onChange={e => {
-                setName(e.target.value);
-              }}
+              {...register('name', {
+                required: true,
+                onChange: e => {
+                  setName(e.target.value);
+                },
+              })}
             />
+            {errors.name?.type === 'required' && (
+              <p className="visitor-form__error" role="alert">
+                Необхідно вказати ім&apos;я
+              </p>
+            )}
           </div>
         </div>
         <div className="col-lg-6">
@@ -59,28 +79,41 @@ const AppointForm = () => {
             <input
               type="tel"
               placeholder="Ваш телефон"
-              value={phone}
-              onChange={e => {
-                setPhone(e.target.value);
-              }}
+              {...register('phone', {
+                required: true,
+                minLength: 10,
+                onChange: e => {
+                  setPhone(e.target.value);
+                },
+              })}
             />
+            {errors.phone?.type === 'required' && (
+              <p className="visitor-form__error" role="alert">
+                Необхідно вказати моб. телефон
+              </p>
+            )}
+            {errors.phone?.type === 'minLength' && (
+                <p className="visitor-form__error" role="alert">
+                  Вкажіть дійсний номер
+                </p>
+            )}
           </div>
         </div>
         <div className="col-lg-12">
           <div className="visitor-form__input">
             <textarea
               placeholder="Напишіть будь-ласка, що вас турбує"
-              name="message"
-              value={message}
-              onChange={e => {
-                setMessage(e.target.value);
-              }}
+              {...register('message', {
+                onChange: e => {
+                  setMessage(e.target.value);
+                },
+              })}
             ></textarea>
           </div>
         </div>
         <div className="col-lg-4 col-md-4 col-12">
           <div className="visit-btn mt-20">
-            <button disabled={buttonDisabled} className="tp-btn">
+            <button type={'submit'} disabled={buttonDisabled} className="tp-btn">
               {buttonText}
             </button>
           </div>
@@ -95,7 +128,6 @@ const AppointForm = () => {
             </span>
           </div>
         </div>
-
 
         <div className="col-lg-12">
           {showSuccessMessage && (
