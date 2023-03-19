@@ -1,12 +1,13 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
 
 
 // team_info data 
 const team_info = [
   {
     id: 1,
-    img: "/assets/img/team/team-details-01.jpg",
+    img: "/assets/img/team/sasha.jpeg",
     name: "Cameron Williamson",
     title: "Genetic Specialist",
     des: (
@@ -154,8 +155,10 @@ const TeamDetailsArea = () => {
           <div className="row">
             <div className="col-lg-5 col-md-6">
               <div className="tp-team-dtls__thumb mb-50">
-                <img
-                  src="/assets/img/team/team-details-01.jpg"
+                <Image
+                    width={300}
+                    height={430}
+                  src="/assets/img/team/sasha.jpeg"
                   alt="team-thumb"
                 />
               </div>

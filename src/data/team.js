@@ -6,6 +6,7 @@ const team_data = [
     title: 'Сестра медична з фізіотерапії',
     des: ' Providing insight-driven transformation to investment banks, wealth and asset mana, exchanges, Finance',
     social_links: [],
+    personalLink: 'oksana',
   },
   {
     id: 2,
@@ -22,6 +23,7 @@ const team_data = [
         color: 'tp-twitter',
       },
     ],
+    personalLink: 'serhii',
   },
   {
     id: 3,
@@ -45,6 +47,7 @@ const team_data = [
         color: 'tp-twitter',
       },
     ],
+    personalLink: 'oleksandr',
   },
 
   {
@@ -62,6 +65,7 @@ const team_data = [
         color: 'tp-instagram',
       },
     ],
+    personalLink: 'vladyslav',
   },
 ];
 
