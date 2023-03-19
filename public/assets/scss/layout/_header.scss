@@ -1,4 +1,4 @@
-@use "../utils" as *;
+@use '../utils' as *;
 
 .header {
   &__area {
@@ -46,7 +46,7 @@
         & a {
           position: relative;
           &::after {
-            content: "+";
+            content: '+';
             transform: translateY();
             right: 0;
           }
@@ -147,7 +147,8 @@
   line-height: 1;
   font-weight: 700;
   text-align: center;
-  display: inline-block;
+  display: flex;
+  align-items: center;
   text-transform: uppercase;
   color: var(--tp-text-2);
   padding: 22px 0;
@@ -159,8 +160,18 @@
   }
   & a {
     color: var(--tp-text-body);
+    margin-bottom: 4px;
     &:hover {
       color: var(--tp-icon-green);
+    }
+  }
+
+  &__label {
+    margin-right: 10px;
+  }
+  &__value {
+    a {
+      display: block;
     }
   }
 }
@@ -193,7 +204,7 @@
     padding: 20px 40px;
   }
   &::after {
-    content: "";
+    content: '';
     height: 300px;
     width: 300px;
     background-color: #2974ff;
@@ -235,7 +246,7 @@
         margin: 0;
         padding: 20px 0;
         &::before {
-          content: "";
+          content: '';
           bottom: 1px;
           left: 0;
           right: 0;
@@ -395,7 +406,7 @@
       &.has-dropdown {
         & > a {
           &::after {
-            content: "+";
+            content: '+';
             right: 0;
           }
         }
@@ -409,7 +420,7 @@
         display: block;
         position: relative;
         &::before {
-          content: "";
+          content: '';
           left: -2px;
           top: 0;
           bottom: 0;
@@ -467,7 +478,7 @@
     margin-bottom: 10px;
   }
   & a {
-    font-family: "Days One";
+    font-family: 'Days One';
     font-weight: 400;
     font-size: 30px;
     color: var(--tp-common-white);
@@ -494,16 +505,12 @@
   }
   &::before {
     position: absolute;
-    content: "";
+    content: '';
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-    background: linear-gradient(
-      89.9deg,
-      #0055f1 -6.67%,
-      rgba(23, 17, 81, 0) 73.29%
-    );
+    background: linear-gradient(89.9deg, #0055f1 -6.67%, rgba(23, 17, 81, 0) 73.29%);
     z-index: -1;
   }
 }
@@ -919,7 +926,7 @@
   background-color: var(--tp-theme-blue);
   border-radius: 6px;
   padding: 10px 20px;
-  box-shadow: rgba(100, 100, 111, 0.1) .5px .5px 5px .5px;
+  box-shadow: rgba(100, 100, 111, 0.1) 0.5px 0.5px 5px 0.5px;
   color: var(--tp-common-white);
 
   &__icon {

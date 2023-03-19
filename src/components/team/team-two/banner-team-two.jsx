@@ -7,7 +7,7 @@ const BannerTeamTwo = () => {
       <section
         className="breadcrumb__area team-banner"
         style={{
-          backgroundImage: `url(/assets/img/team/crew-together.jpeg)`,
+          backgroundImage: `url(/assets/img/team/crew-together.webp`,
         }}
       >
         <div className="container">

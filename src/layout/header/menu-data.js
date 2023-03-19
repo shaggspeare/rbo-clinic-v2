@@ -30,7 +30,7 @@ const menu_data = [
     id: 4,
     mega_menu: false,
     has_dropdown: false,
-    title: 'результати роботи',
+    title: 'результати лікування',
     link: '/results',
     active: '',
     sub_menus: [],

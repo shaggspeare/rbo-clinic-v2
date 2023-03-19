@@ -31,7 +31,7 @@ const team_data = [
     des: ' Providing insight-driven transformation to investment banks, wealth and asset mana, exchanges, Finance',
     social_links: [
       {
-        link: 'https://www.instagram.com/doctor_vyshhororod',
+        link: 'https://www.instagram.com/doctor_vyshhorod',
         target: '_blank',
         icon: 'fab fa-instagram',
         name: 'Instagram',

@@ -64,22 +64,25 @@ const HeaderTwo = () => {
               <div className="row align-items-center">
                 <div className="col-lg-4">
                   <div className="header-top-mob">
-                    <svg width="14" height="19" viewBox="0 0 14 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <circle cx="2" cy="2" r="2" fill="#0E63FF" />
-                      <circle cx="7" cy="2" r="2" fill="#0E63FF" />
-                      <circle cx="12" cy="2" r="2" fill="#0E63FF" />
-                      <circle cx="12" cy="7" r="2" fill="#0E63FF" />
-                      <circle cx="12" cy="12" r="2" fill="#0E63FF" />
-                      <circle cx="7" cy="7" r="2" fill="#0E63FF" />
-                      <circle cx="7" cy="12" r="2" fill="#0E63FF" />
-                      <circle cx="7" cy="17" r="2" fill="#0E63FF" />
-                      <circle cx="2" cy="7" r="2" fill="#0E63FF" />
-                      <circle cx="2" cy="12" r="2" fill="#0E63FF" />
-                    </svg>
-                    <span>Телефон :&nbsp;</span>
-                    <a href="tel:380963050004">+38 (096) 305 00 04</a>
-                    <span>&nbsp;</span>
-                    <a href="tel:380933050004"> +38 (093) 305 00 04 </a>
+                    <div className="header-top-mob__label">
+                      <svg width="14" height="19" viewBox="0 0 14 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="2" cy="2" r="2" fill="#0E63FF" />
+                        <circle cx="7" cy="2" r="2" fill="#0E63FF" />
+                        <circle cx="12" cy="2" r="2" fill="#0E63FF" />
+                        <circle cx="12" cy="7" r="2" fill="#0E63FF" />
+                        <circle cx="12" cy="12" r="2" fill="#0E63FF" />
+                        <circle cx="7" cy="7" r="2" fill="#0E63FF" />
+                        <circle cx="7" cy="12" r="2" fill="#0E63FF" />
+                        <circle cx="7" cy="17" r="2" fill="#0E63FF" />
+                        <circle cx="2" cy="7" r="2" fill="#0E63FF" />
+                        <circle cx="2" cy="12" r="2" fill="#0E63FF" />
+                      </svg>
+                      <span>Телефон:&nbsp;</span>
+                    </div>
+                    <div className="header-top-mob__value">
+                      <a href="tel:380963050004">+38 (096) 305 00 04</a>
+                      <a href="tel:380933050004"> +38 (093) 305 00 04 </a>
+                    </div>
                   </div>
                 </div>
                 <div className="col-lg-8">

@@ -57,7 +57,7 @@ const Feedback = () => {
                   Відгуки
                 </span>
                 <h3 className="tp-section__title title-white mb-70">
-                  Що про нас скажуть
+                  Що про нас кажуть
                 </h3>
               </div>
             </div>

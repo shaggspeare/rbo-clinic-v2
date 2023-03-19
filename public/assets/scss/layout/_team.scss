@@ -439,11 +439,11 @@
 .team-banner {
   background-size: cover;
   background-position: center;
-  height: 750px;
+  height: 800px;
   padding: 0;
 
   @media #{$xxl} {
-    height: 750px;
+    height: 670px;
   }
 
   @media #{$xl} {
