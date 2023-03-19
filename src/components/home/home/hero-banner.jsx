@@ -53,7 +53,7 @@ const hero_box = [
 ];
 
 const HeroBanner = () => {
-  const [isVideoOpen, setIsVideoOpen] = useState(false);
+  // const [isVideoOpen, setIsVideoOpen] = useState(false);
 
   return (
     <>

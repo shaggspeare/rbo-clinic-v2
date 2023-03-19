@@ -11,7 +11,7 @@ const footer_content = {
       links: [
         { name: 'Контакти', link: '/contact-us' },
         { name: 'Про нас', link: '/about' },
-        { name: 'Команда', link: '/team-2' },
+        { name: 'Команда', link: '/team' },
         { name: 'Послуги', link: '/service' },
       ],
     },

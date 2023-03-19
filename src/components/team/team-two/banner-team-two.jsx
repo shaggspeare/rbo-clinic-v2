@@ -5,26 +5,13 @@ const BannerTeamTwo = () => {
   return (
     <>
       <section
-        className="breadcrumb__area pt-100 pb-120 breadcrumb__overlay"
+        className="breadcrumb__area team-banner"
         style={{
-          backgroundImage: `url(/assets/img/banner/breadcrumb-01.jpg)`,
+          backgroundImage: `url(/assets/img/team/crew-together.jpeg)`,
         }}
       >
         <div className="container">
-          <div className="row align-items-center">
-            <div className="col-xl-7 col-lg-12 col-md-12 col-12">
-              <div className="tp-breadcrumb">
-                <h2 className="tp-breadcrumb__title">Our Team- 02</h2>
-              </div>
-            </div>
-            <div className="col-xl-5 col-lg-12 col-md-12 col-12">
-              <div className="tp-breadcrumb__link text-xl-end">
-                <span>
-                  Bioxlab : <Link href="/team-details"> Our Team</Link>
-                </span>
-              </div>
-            </div>
-          </div>
+          <div className=""></div>
         </div>
       </section>
     </>

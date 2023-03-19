@@ -435,3 +435,25 @@
     }
   }
 }
+
+.team-banner {
+  background-size: cover;
+  background-position: center;
+  height: 750px;
+  padding: 0;
+
+  @media #{$xxl} {
+    height: 750px;
+  }
+
+  @media #{$xl} {
+    height: 650px;
+  }
+
+  @media #{$lg} {
+    height: 650px;
+  }
+  @media #{$md,$xs} {
+    height: 190px;
+  }
+}

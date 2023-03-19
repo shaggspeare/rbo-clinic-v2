@@ -11,9 +11,9 @@ const TeamArea = () => {
             <div className="col-md-12 col-12">
               <div className="tp-section text-center">
                 <span className="tp-section__sub-title left-line right-line mb-25">
-                  Our Team
+                  Рух без обмежень
                 </span>
-                <h3 className="tp-section__title mb-75">Our Specialist</h3>
+                <h3 className="tp-section__title mb-75">Наша команда</h3>
               </div>
             </div>
           </div>
@@ -36,7 +36,7 @@ const TeamArea = () => {
                     <span className="tp-team__position mb-30">
                       {item.title}
                     </span>
-                    <p>{item.des} </p>
+                    {/*<p>{item.des} </p>*/}
                     <div className="tp-team__social">
                       {item.social_links.map((link, i) => (
                         <Link
