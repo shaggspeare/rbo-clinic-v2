@@ -2,8 +2,8 @@ import HeaderTwo from '@/layout/header/header-two';
 import React from 'react';
 import TeamDetailsArea from './team-details-area';
 import { useRouter } from 'next/router';
-import Footer from "@/layout/footer/footer";
-import Appointment from "@/components/home/home/appointment";
+import Footer from '@/layout/footer/footer';
+import Appointment from '@/components/home/home/appointment';
 
 const TeamDetails = () => {
   const router = useRouter();
@@ -12,8 +12,8 @@ const TeamDetails = () => {
   return (
     <>
       <HeaderTwo />
-      <TeamDetailsArea />
-      <Appointment/>
+      <TeamDetailsArea keyName={slug} />
+      <Appointment />
       <Footer />
     </>
   );

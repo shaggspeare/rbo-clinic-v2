@@ -11,7 +11,7 @@ const TeamArea = () => {
             <div className="col-md-12 col-12">
               <div className="tp-section text-center">
                 <span className="tp-section__sub-title left-line right-line mb-25">Рух без обмежень</span>
-                <h3 className="tp-section__title mb-75">Наша команда</h3>
+                <h3 className="tp-section__title mb-75">Ваші лікарі</h3>
               </div>
             </div>
           </div>

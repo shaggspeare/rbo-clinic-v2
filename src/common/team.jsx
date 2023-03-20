@@ -56,7 +56,7 @@ const Team = () => {
                 <span className="tp-section__sub-title left-line mb-25">
                   Наша команда
                 </span>
-                <h3 className="tp-section__title mb-75">Зустрічайте своіх лікарів</h3>
+                <h3 className="tp-section__title mb-75">Зустрічайте своїх лікарів</h3>
               </div>
             </div>
             <div className="col-lg-4 col-md-4 col-12">
@@ -80,18 +80,17 @@ const Team = () => {
                   <div className="swiper-slide">
                     <div className="tp-team mb-50">
                       <div className="tp-team__thumb fix">
-                        <a href="#">
+                        <a href={`team/${item.personalLink}`}>
                           <img src={item.img} alt="team-thumb" />
                         </a>
                       </div>
                       <div className="tp-team__content">
                         <h4 className="tp-team__title mb-15">
-                          <Link href="/team-details">{item.name}</Link>
+                          <Link href={`team/${item.personalLink}`}>{item.name}</Link>
                         </h4>
                         <span className="tp-team__position mb-30">
                           {item.title}
                         </span>
-                        {/*<p>{item.des}</p>*/}
                         <div className="tp-team__social">
                           {item.social_links.map((l, i) => (
                             <Link key={i} className={l.color} href={l.link} target={l.target}>

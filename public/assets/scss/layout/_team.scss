@@ -326,10 +326,14 @@
     }
   }
   &__title {
-    font-size: 24px;
-    &:hover {
-      color: var(--tp-theme-secondary);
-    }
+    font-size: 20px;
+    text-transform: uppercase;
+    color: var(--tp-icon-blue);
+    font-weight: 700;
+  }
+
+  &__short-desc {
+    font-size: 20px;
   }
   &__info {
     & ul {
@@ -378,7 +382,7 @@
 }
 .tp-team-dtls__social {
   & .tp-dtls-insta {
-    background-color: var(--tp-theme-blue);
+    background-color: var(--tp-theme-pink);
   }
 }
 .tp-team-dtls__social {
@@ -437,10 +441,21 @@
 }
 
 .team-banner {
+  position: relative;
   background-size: cover;
   background-position: center;
   height: 800px;
   padding: 0;
+
+  &::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(23, 17, 81, 0.3);
+  }
 
   @media #{$xxl} {
     height: 670px;
@@ -454,6 +469,40 @@
     height: 650px;
   }
   @media #{$md,$xs} {
-    height: 190px;
+    height: 300px;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+
+  &__heading {
+    position: relative;
+    margin-bottom: 50px;
+    font-size: 60px;
+    text-align: center;
+    color: var(--tp-common-white);
+    z-index: 1;
+
+    @media #{$md,$xs} {
+      margin-bottom: 20px;
+      font-size: 36px;
+    }
+  }
+
+  &__btn {
+    margin-bottom: 50px;
+    width: 320px;
+    align-self: center;
+
+    @media #{$md,$xs} {
+      margin-bottom: 20px;
+      width: 280px;
+      padding: 15px 20px;
+      font-size: 14px;
+    }
   }
 }

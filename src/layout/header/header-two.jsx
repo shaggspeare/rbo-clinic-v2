@@ -62,7 +62,7 @@ const HeaderTwo = () => {
           <div className="header-menu-box">
             <div className="header-menu-top">
               <div className="row align-items-center">
-                <div className="col-lg-4">
+                <div className="col-lg-6">
                   <div className="header-top-mob">
                     <div className="header-top-mob__label">
                       <svg width="14" height="19" viewBox="0 0 14 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -85,12 +85,11 @@ const HeaderTwo = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-8">
+                <div className="col-lg-6">
                   <div className="header-time">
                     <span>
                       <i className="fa-light fa-clock-ten"></i>
-                      <span> Пн - Пт: 09:00 - 11:00</span>
-                      <span>, &nbsp;</span>
+                      <span> Пн - Пт: 09:00 - 11:00, </span>
                       <span> Сб: 09:00 - 15:00</span>
                     </span>
                   </div>
@@ -99,14 +98,14 @@ const HeaderTwo = () => {
             </div>
             <div className="header-menu-bottom">
               <div className="row">
-                <div className="col-lg-7">
+                <div className="col-lg-8">
                   <div className="main-menu main-menu-second">
                     <nav id="mobile-menu">
                       <NavMenu />
                     </nav>
                   </div>
                 </div>
-                <div className="col-lg-5">
+                <div className="col-lg-4">
                   <div className="header-cart-order d-flex align-items-center justify-content-end">
                     <Link className="header-bottom-btn" href="#appointment-home">
                       записатися

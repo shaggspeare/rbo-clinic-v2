@@ -6,6 +6,7 @@
 
 .visitor-info {
     padding:130px 110px;
+
     @media #{$xxxl} {
         padding: 130px 80px;
     }
@@ -16,7 +17,7 @@
         padding:130px 50px;
     }
     @media #{$xs} {
-        padding:130px 15px;
+        padding:130px 30px;
     }
 }
 .appointment-title {
