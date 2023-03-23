@@ -3,7 +3,7 @@ import React from "react";
 
 const BannerTeamTwo = () => {
   return (
-    <>
+    <div className='team-banner-wrapper'>
       <section
         className="breadcrumb__area team-banner"
         style={{
@@ -18,7 +18,7 @@ const BannerTeamTwo = () => {
             </Link>
         </div>
       </section>
-    </>
+    </div>
   );
 };
 

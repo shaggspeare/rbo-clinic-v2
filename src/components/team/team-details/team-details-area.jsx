@@ -217,8 +217,8 @@ const TeamDetailsArea = ({ keyName }) => {
         <div className="container">
           <div className="row">
             <div className="col-lg-5 col-md-6">
-              <div className="tp-team-dtls__thumb mb-50">
-                <Image width={400} height={600} src={memberInfo.img} alt={`${keyName}'s picture`} />
+              <div className="tp-team-dtls__thumb mb-50 team-details-area__img-holder">
+                <Image width={400} height={600} src={memberInfo.img} alt={`${keyName}'s picture`} className='team-details-area__img'/>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
@@ -249,7 +249,7 @@ const TeamDetailsArea = ({ keyName }) => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-6 col-md-6">
+            <div className="col-lg-6 col-md-6 wow fadeInLeft"  data-wow-delay=".2s">
               <div className="tp-team-dtls-item mb-50 mt-35 wow fadeInUp" data-wow-delay=".2s">
                 <h4 className="tp-team-dtls-item__title mb-25">{memberInfo.personalInfo[0].title}</h4>
                 <div className="tp-team-dtls-item__list">
@@ -264,7 +264,7 @@ const TeamDetailsArea = ({ keyName }) => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 col-md-6">
+            <div className="col-lg-6 col-md-6 wow fadeInRight"  data-wow-delay=".2s">
               {memberInfo.personalInfo[1] && (
                 <div className="tp-team-dtls-item mb-50 mt-35 ml-40 wow fadeInUp" data-wow-delay=".4s">
                   <h4 className="tp-team-dtls-item__title mb-25">{memberInfo.personalInfo[1].title}</h4>

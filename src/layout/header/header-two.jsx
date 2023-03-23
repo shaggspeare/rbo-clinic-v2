@@ -107,7 +107,7 @@ const HeaderTwo = () => {
                 </div>
                 <div className="col-lg-4">
                   <div className="header-cart-order d-flex align-items-center justify-content-end">
-                    <Link className="header-bottom-btn" href="#appointment-home">
+                    <Link className="header-bottom-btn" href="/#appointment-home">
                       записатися
                     </Link>
                   </div>

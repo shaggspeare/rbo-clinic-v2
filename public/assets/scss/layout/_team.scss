@@ -440,6 +440,14 @@
   }
 }
 
+.team-banner-wrapper {
+  padding-top: 180px;
+
+  @media #{$md,$xs} {
+    padding-top: 50px;
+  }
+}
+
 .team-banner {
   position: relative;
   background-size: cover;
@@ -503,6 +511,47 @@
       width: 280px;
       padding: 15px 20px;
       font-size: 14px;
+    }
+  }
+}
+
+.team-details-area {
+  padding-top: 180px;
+
+  @media #{$md,$xs} {
+    padding-top: 50px;
+  }
+
+  &__img-holder {
+    @media #{$md,$xs} {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  &__img {
+    @media #{$xxxl} {
+      width: 400px;
+      height: 600px;
+    }
+
+    @media #{$xxl} {
+      width: 400px;
+      height: 600px;
+    }
+
+    @media #{$xl} {
+      width: 320px !important;
+      height: 480px;
+    }
+
+    @media #{$lg} {
+      width: 320px !important;
+      height: 480px;
+    }
+    @media #{$md,$xs} {
+      width: 320px !important;
+      height: 480px;
     }
   }
 }
