@@ -530,28 +530,21 @@
   }
 
   &__img {
-    @media #{$xxxl} {
-      width: 400px;
-      height: 600px;
-    }
-
-    @media #{$xxl} {
-      width: 400px;
-      height: 600px;
-    }
-
-    @media #{$xl} {
-      width: 320px !important;
-      height: 480px;
+    @media #{$xxxl, $xxl, $xl} {
+      width: 400px !important;
+      height: 400px;
+      object-fit: contain;
     }
 
     @media #{$lg} {
       width: 320px !important;
-      height: 480px;
+      height: 320px;
+      object-fit: contain;
     }
     @media #{$md,$xs} {
       width: 320px !important;
-      height: 480px;
+      height: 320px;
+      object-fit: contain;
     }
   }
 }

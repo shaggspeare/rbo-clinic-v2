@@ -6,7 +6,7 @@ const ServiceArea = () => {
   return (
     <>
       <section
-        className="services-area pt-120 pb-90 grey-bg"
+        className="services-area  grey-bg"
         style={{ backgroundImage: `url(/assets/img/shape/shape-bg-01.png)` }}
       >
         <div className="container">
@@ -14,9 +14,9 @@ const ServiceArea = () => {
             <div className="col-lg-12 col-md-12 col-12">
               <div className="tp-section">
                 <span className="tp-section__sub-title left-line right-line mb-20">
-                  our Services
+                  лікуємо
                 </span>
-                <h3 className="tp-section__title mb-70">Service Area</h3>
+                <h3 className="tp-section__title mb-70">Наші послуги</h3>
               </div>
             </div>
           </div>
@@ -40,7 +40,7 @@ const ServiceArea = () => {
                         className={`btn-hexa ${item.btn_color}`}
                         href="/service"
                       >
-                        <i></i>Read More
+                        <i></i>Показати ціни
                       </Link>
                     </div>
                   </div>

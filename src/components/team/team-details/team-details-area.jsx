@@ -6,7 +6,7 @@ const teamDetailsInfo = [
   {
     id: 1,
     key: 'oleksandr',
-    img: '/assets/img/team/sasha.jpeg',
+    img: '/assets/img/team/sasha-small.jpg',
     name: 'Ячник Олександр Сергійович',
     title: 'Лікар ортопед-травматолог, реабілітолог',
     description: (
@@ -80,7 +80,7 @@ const teamDetailsInfo = [
   {
     id: 2,
     key: 'oksana',
-    img: '/assets/img/team/oksana.jpeg',
+    img: '/assets/img/team/oksana-small.jpg',
     name: 'Ячник Оксана Олександрівна',
     title: 'Медична сестра з фізіотерапії, провізор-спеціаліст',
     description: (
@@ -135,7 +135,7 @@ const teamDetailsInfo = [
   {
     id: 3,
     key: 'vladyslav',
-    img: '/assets/img/team/vlad.jpeg',
+    img: '/assets/img/team/vlad-small.jpg',
     name: 'Кумечко Владислав Віталійович',
     title: 'Реабілітолог, масажист',
     description: (
@@ -218,7 +218,7 @@ const TeamDetailsArea = ({ keyName }) => {
           <div className="row">
             <div className="col-lg-5 col-md-6">
               <div className="tp-team-dtls__thumb mb-50 team-details-area__img-holder">
-                <Image width={400} height={600} src={memberInfo.img} alt={`${keyName}'s picture`} className='team-details-area__img'/>
+                <Image width={400} height={400} src={memberInfo.img} alt={`${keyName}'s picture`} className='team-details-area__img'/>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">

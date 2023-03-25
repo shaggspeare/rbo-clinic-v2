@@ -1,50 +1,134 @@
 const ServiceOneData = [
   {
     id: 1,
-    color: "",
-    icon: "flaticon-hemoglobin-test-meter",
-    title: "Hemoglobin Test",
-    des: "Nam eget dui vel quam sodales semper quis porttitor tortor. Vivamus quis ex nulla.Nam eget dui vel quam",
+    color: '',
+    icon: 'fa-solid fa-user-doctor-message',
+    title: 'Консультації лікарів',
+    des: (
+      <>
+        - Первинна консультація невролога-вертебролога, ортопеда-травматолога мануального терапевта реабілітолога <br />-
+        Повторна консультація невролога-вертебролога, ортопеда-травматолога
+      </>
+    ),
   },
   {
     id: 2,
-    color: "pink-icon",
-    btn_color: "pink-hexa",
-    icon: "flaticon-blood-test",
-    title: "Blood Testing",
-    des: "Nam eget dui vel quam sodales semper quis porttitor tortor. Vivamus quis ex nulla.Nam eget dui vel quam",
+    color: 'pink-icon',
+    btn_color: 'pink-hexa',
+    icon: 'fa-solid fa-syringe',
+    title: 'Інєкційні методи лікування\n',
+    des: (
+      <>
+        - PRP-терапія хребта, суглобів та сухожиль
+        <br />
+        - Внутрішньосуглобове введення гіалуронової кислоти <br />- Інєкція колагену
+      </>
+    ),
   },
   {
     id: 3,
-    color: "green-icon",
-    btn_color: "green-hexa",
-    icon: "flaticon-biochemistry",
-    title: "Biochemistry",
-    des: "Nam eget dui vel quam sodales semper quis porttitor tortor. Vivamus quis ex nulla.Nam eget dui vel quam",
+    color: 'green-icon',
+    btn_color: 'green-hexa',
+    icon: 'fa-solid fa-user-nurse',
+    title: 'Tерапія',
+    des: (
+      <>
+        - Мануальна терапія
+        <br />- Oстеопатія
+        <br /> - Рефлексотерапія
+      </>
+    ),
   },
   {
     id: 4,
-    color: "sky-icon",
-    btn_color: "sky-hexa",
-    icon: "flaticon-dna-1",
-    title: "Histopatology",
-    des: "Nam eget dui vel quam sodales semper quis porttitor tortor. Vivamus quis ex nulla.Nam eget dui vel quam",
+    color: 'sky-icon',
+    btn_color: 'sky-hexa',
+    icon: 'fa-solid fa-bandage',
+    title: 'Реабілітація,  \n' + 'Кінезіотерапія,\n' + 'Тейпування',
+    des: (
+      <>
+        - Реабілітація <br />
+        - Післяопераційна реабілітація <br />
+        - Реабілітація після переломів <br />
+        - Кінезіотерапія <br />
+        - Тейпування <br />
+      </>
+    ),
   },
   {
     id: 5,
-    color: "",
-    btn_color: "",
-    icon: "flaticon-bacteria",
-    title: "Microbioogy",
-    des: "Nam eget dui vel quam sodales semper quis porttitor tortor. Vivamus quis ex nulla.Nam eget dui vel quam",
+    color: '',
+    btn_color: '',
+    icon: 'fa-solid fa-x-ray',
+    title: 'Фізіотерапевтичні процедури\n',
+    des: (
+      <>
+        - Електрофорез
+        <br />
+        - Магнітотерапія
+        <br />
+        - Ультрафонофорез з мазями
+        <br />
+        - Витяжіння хребта та суглобів
+        <br />
+        - Стимуляція
+        <br />
+        - Магнітолазер
+        <br />
+      </>
+    ),
   },
   {
     id: 6,
-    color: "pink-icon",
-    btn_color: "pink-hexa",
-    icon: "flaticon-dna",
-    title: "Genetics",
-    des: "Nam eget dui vel quam sodales semper quis porttitor tortor. Vivamus quis ex nulla.Nam eget dui vel quam",
+    color: 'pink-icon',
+    btn_color: 'pink-hexa',
+    icon: 'fa-solid fa-person',
+    title: 'Масаж',
+    des: (
+      <>
+        <br />- Лікувальний масаж шийно-комірцевої зони та грудного відділу хребта
+        <br />- Лікувальний масаж всієї спини
+        <br />- Загальний масаж
+        <br />- Дитячий масаж
+        <br />- Спортивний масаж
+        <br />- Лімфодренажний масаж
+        <br />- Розслабляючий масаж
+      </>
+    ),
+  },
+
+  {
+    id: 7,
+    color: '',
+    icon: 'fa-solid fa-user-doctor',
+    title: 'Оперативне лікування',
+    des: <>При необхідності оперативного лікування, лікарі нашого центру зможуть прооперувати Вас в Києві</>,
+  },
+  {
+    id: 8,
+    color: 'green-icon',
+    btn_color: 'green-hexa',
+    icon: 'fa-solid fa-face-head-bandage',
+    title: 'Травматологічні процедури',
+    des: (
+      <>
+        - Пункція суглоба
+        <br /> - Накладання гіпсової пов`язки без репозиції
+        <br /> -Накладання Scotchcast без репозиції
+      </>
+    ),
+  },
+  {
+    id: 9,
+    color: 'pink-icon',
+    btn_color: 'pink-hexa',
+    icon: 'fa-solid fa-child',
+    title: 'Комплексне лікування сколіозу',
+    des: (
+      <>
+        - Лікувальна фізкультура <br />- Лікувальний масаж
+      </>
+    ),
   },
 ];
 
