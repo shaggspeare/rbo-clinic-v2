@@ -6,6 +6,10 @@
     position: relative;
     z-index: 2;
     background-color: var(--tp-common-white);
+
+    &--transparent {
+      background-color: transparent;
+    }
     @media #{$xxl,$xl} {
       padding: 40px 15px;
     }

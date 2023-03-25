@@ -53,7 +53,7 @@ const Header = () => {
       </div>
 
       <header className="d-none d-xl-block">
-        <div className={`header__area tp-home-one ${sticky ? 'header-sticky' : ''}`} id="header-sticky">
+        <div className={`header__area header__area--transparent tp-home-one ${sticky ? 'header-sticky' : ''}`} id="header-sticky">
           <div className="container-fluid">
             <div className="row align-items-center">
               <div className="col-xxl-2 col-lg-2">

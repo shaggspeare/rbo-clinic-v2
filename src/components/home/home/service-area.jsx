@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
 import Link from "next/link";
+import ServiceOneData from "@/data/service-one-data";
 
 // slider setting
 const setting = {
@@ -79,19 +80,7 @@ const ServiceArea = () => {
         style={{ backgroundImage: `url(/assets/img/shape/shape-bg-01.png)` }}
       >
         <div className="container">
-          {/*<div className="row mb-125">*/}
-          {/*  <div className="col-lg-12">*/}
-          {/*    <div className="search-form">*/}
-          {/*      <form action="#">*/}
-          {/*        <input type="text" placeholder="What are you looking for?" />*/}
-          {/*        <button className="tp-btn search-btn" type="submit">*/}
-          {/*          Search Here*/}
-          {/*          <i className="fa-light fa-magnifying-glass ml-5"></i>*/}
-          {/*        </button>*/}
-          {/*      </form>*/}
-          {/*    </div>*/}
-          {/*  </div>*/}
-          {/*</div>*/}
+
           <div className="row align-items-center">
             <div className="col-lg-8 col-md-8 col-12">
               <div className="tp-section">
@@ -120,25 +109,25 @@ const ServiceArea = () => {
                 modules={[Navigation]}
                 className="service-active"
               >
-                {slider_content.map((item) => (
+                {ServiceOneData.map((item) => (
                   <SwiperSlide key={item.id}>
-                    <div className="services-item mb-40">
-                      <div
-                        className={`services-item__icon ${item.color_icon} mb-30`}
-                      >
-                        <i className={`${item.icon}`}></i>
+                    <div
+                        className="services-item mb-40"
+                    >
+                      <div className={`services-item__icon ${item.color} mb-30`}>
+                        <i className={item.icon}></i>
                       </div>
                       <div className="services-item__content">
-                        <h4 className="services-item__tp-title mb-30">
+                        <h4 className="services-item__tp-title tp-srv-title mb-30">
                           <Link href="/services-details">{item.title}</Link>
                         </h4>
                         <p>{item.des}</p>
                         <div className="services-item__btn">
                           <Link
-                            className={`btn-hexa ${item.color}`}
-                            href="/services-01"
+                              className={`btn-hexa ${item.btn_color}`}
+                              href="/service"
                           >
-                            <i></i>Read More
+                            <i></i>Показати ціни
                           </Link>
                         </div>
                       </div>
