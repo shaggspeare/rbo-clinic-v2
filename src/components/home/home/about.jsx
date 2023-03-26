@@ -64,7 +64,7 @@ const About = () => {
   return (
     <>
       <section id="tp-about-scroll" className="about-area pb-70">
-        <div className="container">
+        <div className="container" id='about'>
           <div className="row">
             <div className="col-xl-6 col-lg-12">
               <div className="about__thumb mb-60 wow fadeInLeft" data-wow-delay=".4s">

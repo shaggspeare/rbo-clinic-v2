@@ -69,7 +69,7 @@ const HeroBanner = () => {
                   <Link className="tp-btn" href="#appointment-home">
                     {btn_text1}
                   </Link>
-                  <Link className="tp-btn-second ml-25" href="/about">
+                  <Link className="tp-btn-second ml-25" href="#about">
                     {btn_text2}
                   </Link>
                 </div>
