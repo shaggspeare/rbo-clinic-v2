@@ -5,7 +5,7 @@ import useSticky from 'hooks/use-sticky';
 import Sidebar from '@/common/sidebar';
 import Image from 'next/image';
 
-const Header = () => {
+const Header = ({withBg= false}) => {
   const { sticky } = useSticky();
   const [isActive, setIsActive] = useState(false);
 
@@ -53,7 +53,7 @@ const Header = () => {
       </div>
 
       <header className="d-none d-xl-block">
-        <div className={`header__area header__area--transparent tp-home-one ${sticky ? 'header-sticky' : ''}`} id="header-sticky">
+        <div className={`header__area ${withBg ? 'header__area--with-bg' : ''} tp-home-one ${sticky ? 'header-sticky' : ''}`} id="header-sticky">
           <div className="container-fluid">
             <div className="row align-items-center">
               <div className="col-xxl-2 col-lg-2">

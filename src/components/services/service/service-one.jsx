@@ -6,7 +6,7 @@ import Header from "@/layout/header/header";
 const ServiceOne = () => {
   return (
     <>
-      <Header />
+      <Header withBg/>
       <ServiceArea />
       <Footer />
     </>

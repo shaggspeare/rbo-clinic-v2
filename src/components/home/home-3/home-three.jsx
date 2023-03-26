@@ -6,8 +6,8 @@ import About from "./about";
 import Blog from "./blog";
 import HeroBanner from "./hero-banner";
 import NavTab from "../../../common/nav-tab";
-import Service from "./service";
 import VideoArea from "./video-area";
+import ResultsShowdown from "@/components/results/results-showdown";
 
 const Home_Three = () => {
   return (
@@ -15,7 +15,7 @@ const Home_Three = () => {
       <div className="content-layout-right">
         <HeroBanner />
         <About />
-        <Service />
+        <ResultsShowdown />
         <Counter  cls="tp-common-area pt-130" />
         <NavTab />
         <VideoArea />

@@ -21,24 +21,23 @@ const ServiceArea = () => {
             </div>
           </div>
           <div className="row">
-            {ServiceOneData.map((item) => (
+            {ServiceOneData.map((item, idx) => (
               <div key={item.id} className="col-xl-4 col-md-6">
                 <div
-                  className="services-item mb-40 wow fadeInUp"
-                  data-wow-delay=".6s"
+                  className="services-item mb-40"
                 >
                   <div className={`services-item__icon ${item.color} mb-30`}>
                     <i className={item.icon}></i>
                   </div>
                   <div className="services-item__content">
                     <h4 className="services-item__tp-title tp-srv-title mb-30">
-                      <Link href="/services-details">{item.title}</Link>
+                      <Link href="/service-details">{item.title}</Link>
                     </h4>
                     <p>{item.des}</p>
                     <div className="services-item__btn">
                       <Link
                         className={`btn-hexa ${item.btn_color}`}
-                        href="/service"
+                        href="/service-details"
                       >
                         <i></i>Показати ціни
                       </Link>

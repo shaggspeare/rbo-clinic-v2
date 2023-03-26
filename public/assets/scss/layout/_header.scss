@@ -5,10 +5,10 @@
     padding: 40px 90px 40px 80px;
     position: relative;
     z-index: 2;
-    background-color: var(--tp-common-white);
 
-    &--transparent {
-      background-color: transparent;
+
+    &--with-bg  {
+      background-color: var(--tp-common-white);
     }
     @media #{$xxl,$xl} {
       padding: 40px 15px;

@@ -1,16 +1,18 @@
-import HeaderTwo from "@/layout/header/header-two";
-import React from "react";
-import Banner from "./banner";
-import ContactForm from "./contact-form";
-import Footer from "@/layout/footer/footer";
+import HeaderTwo from '@/layout/header/header-two';
+import React from 'react';
+import Banner from './banner';
+import ContactForm from './contact-form';
+import Footer from '@/layout/footer/footer';
+import Header from '@/layout/header/header';
+import Appointment from '@/components/home/home/appointment';
 
 const ContactUs = () => {
   return (
     <>
-      <HeaderTwo />
-      <Banner />
-      <ContactForm />
-        <Footer />
+      <Header withBg />
+        <ContactForm />
+        <Appointment />
+      <Footer />
     </>
   );
 };

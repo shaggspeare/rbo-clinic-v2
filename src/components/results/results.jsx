@@ -1,13 +1,13 @@
 import React from "react";
-import NavTab from "@/common/nav-tab";
 import Footer from "@/layout/footer/footer";
-import HeaderTwo from "@/layout/header/header-two";
+import ResultsShowdown from "@/components/results/results-showdown";
+import Header from "@/layout/header/header";
 
 const Results = () => {
     return (
         <>
-            <HeaderTwo />
-            <NavTab />
+            <Header withBg />
+            <ResultsShowdown />
             <Footer />
         </>
     );

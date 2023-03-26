@@ -1,4 +1,4 @@
-@use "../utils" as *;
+@use '../utils' as *;
 
 /*----------------------------------------*/
 /*  14. CTA CSS START
@@ -84,7 +84,7 @@
 .news-round-shape {
   z-index: 1;
   &::before {
-    content: "";
+    content: '';
     position: absolute;
     height: 824px;
     width: 824px;
@@ -189,12 +189,8 @@
   z-index: 1;
   &::before {
     position: absolute;
-    content: "";
-    background: linear-gradient(
-      0.7deg,
-      #171151 21.18%,
-      rgba(23, 17, 81, 0) 99.43%
-    );
+    content: '';
+    background: linear-gradient(0.7deg, #171151 21.18%, rgba(23, 17, 81, 0) 99.43%);
     top: 0;
     left: 0;
     height: 100%;
@@ -215,7 +211,7 @@
   }
   &::before {
     position: absolute;
-    content: "";
+    content: '';
     bottom: 0;
     left: 0;
     height: 0%;
@@ -260,7 +256,12 @@
 }
 
 // contact
+.tpcontact-wrapper {
+  display: flex;
+}
+
 .tpcontact {
+  flex-grow: 1;
   @media #{$lg,$md,$xs} {
     margin-right: 0;
   }
@@ -322,5 +323,15 @@
     width: 100%;
     border-radius: 5px;
     filter: grayscale(100%);
+  }
+}
+
+.contact-area {
+  padding-top: 240px;
+  padding-bottom: 60px;
+
+  @media #{$md,$xs} {
+    padding-top: 50px;
+    padding-bottom: 60px;
   }
 }
