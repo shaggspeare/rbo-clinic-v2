@@ -63,9 +63,6 @@ const Footer = () => {
                     - заради профілактики та підтримки опорно - рухового апарату;
                     <br />
                   </p>
-                  <div className="footer-widget__social">
-                    <SocialLinks />
-                  </div>
                 </div>
               </div>
               {footer_info.map(item => (

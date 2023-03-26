@@ -1,222 +1,172 @@
-import Link from "next/link";
-import React from "react";
+import Link from 'next/link';
+import React from 'react';
 
 const ServiceDetailsArea = () => {
   return (
     <>
       <section className="services-details pt-130 pb-120">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-6 col-md-12">
-              <div
-                className="services-thumb-img mb-50 wow fadeInLeft"
-                data-wow-delay=".4s"
-              >
-                <img
-                  src="/assets/img/services/services-thumb-07.jpg"
-                  alt="services-thumb"
-                />
-              </div>
-            </div>
-            <div className="col-lg-6 col-md-12">
-              <div
-                className="services-thumb-img mb-50 wow fadeInRight"
-                data-wow-delay=".4s"
-              >
-                <img
-                  src="/assets/img/services/services-thumb-08.jpg"
-                  alt="services-thumb"
-                />
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="tp-srv-process mb-50">
-                <h4 className="tp-srv-process__title mb-30">
-                  Memoglobin Test Process
-                </h4>
-                <p className="mb-20">
-                  Must explain to you how all this mistaken idea of denouncing
-                  works pleasure and praising uts pain was born and I will gives
-                  you a itself completed account of the system, and sed expounds
-                  the ut actual teachings of that greater sed explores truth.
-                  Denouncing works pleasures and praising pains was us born and
-                  I will gives you a completed ut workers accounts of the
-                  system. sit aspernatur aut odit aut fugit, sed quia
-                  consequuntur magni dolores eos qui ratione voluptatem sequi
-                  nesciunt.
-                </p>
-                <p className="mb-40">
-                  Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                  amet, consectetur, adipisci velit, sed quia non numquam eius
-                  modi tempora incidunt ut labore et dolore magnam aliquam
-                  quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
-                  exercitationem.
-                </p>
-                <div className="tp-srv-process__list">
-                  <ul>
-                    <li>
-                      <i className="fa-solid fa-check"></i>Consectetur, adipisci
-                      velit, sed quia non numquam eius modi{" "}
-                    </li>
-                    <li>
-                      <i className="fa-solid fa-check"></i>Perspiciatis unde
-                      omnis iste natus error sit voluptatem accusantium
-                      doloremquen
-                    </li>
-                    <li>
-                      <i className="fa-solid fa-check"></i>Ut enim ad minima
-                      veniam, quis nostrum exercitationem
-                    </li>
-                    <li>
-                      <i className="fa-solid fa-check"></i>Neque porro quisquam
-                      est, qui dolorem ipsum quia dolor sit amet.
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="tp-srv-stap mb-40">
-                <h4 className="tp-srv-stap__title mb-25">4 Simple Steps</h4>
-                <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam, eaque
-                  ipsa quae ab illo inventore veritatis et quasi architecto
-                  beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
-                  quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                  consequuntur magni dolores eos qui ratione voluptatem sequi
-                  nesciunt. Neque porro quisquam est, qui dolorem ipsum quia
-                  dolor sit amet.
-                </p>
-                <p>
-                  Must explain to you how all this mistaken idea of denouncing
-                  works pleasure and praising uts pain was born and I will gives
-                  you a itself completed account of the system, and sed expounds
-                  the ut actual teachings of that greater sed explores truth.
-                  Denouncing works pleasures and praising pains was us born and
-                  I will gives you a completed ut workers accounts of the
-                  system. sit aspernatur aut odit aut fugit, sed quia
-                  consequuntur magni dolores eos qui ratione voluptatem sequi
-                  nesciunt.
-                </p>
-                <p>
-                  Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                  amet, consectetur, adipisci velit, sed quia non numquam eius
-                  modi tempora incidunt ut labore et dolore magnam aliquam
-                  quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
-                  exercitationem.
-                </p>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-md-6">
-              <div
-                className="tp-srv-stap__list mb-30 wow fadeInUp"
-                data-wow-delay=".2s"
-              >
-                <ul>
-                  <li>
-                    <i className="fa-solid fa-check"></i>Extramural Funding
-                  </li>
-                  <li>
-                    <i className="fa-solid fa-check"></i>Bacteria Markers
-                  </li>
-                  <li>
-                    <i className="fa-solid fa-check"></i>Nam nec mi euismod
-                    euismod
-                  </li>
-                  <li>
-                    <i className="fa-solid fa-check"></i>In aliquet dui nec
-                    lectus
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-xl-4 col-lg-4 col-md-6">
-              <div
-                className="tp-srv-stap__list ml-65 mb-30 wow fadeInUp"
-                data-wow-delay=".4s"
-              >
-                <ul>
-                  <li>
-                    <i className="fa-solid fa-check"></i>Extramural Funding
-                  </li>
-                  <li>
-                    <i className="fa-solid fa-check"></i>Bacteria Markers
-                  </li>
-                  <li>
-                    <i className="fa-solid fa-check"></i>Nam nec mi euismod
-                    euismod
-                  </li>
-                  <li>
-                    <i className="fa-solid fa-check"></i>In aliquet dui nec
-                    lectus
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-xl-5 col-lg-4 col-md-6">
-              <div
-                className="tp-srv-stap__list ml-65 ml-20 mb-30 wow fadeInUp"
-                data-wow-delay=".6s"
-              >
-                <ul>
-                  <li>
-                    <i className="fa-solid fa-check"></i>Extramural Funding
-                  </li>
-                  <li>
-                    <i className="fa-solid fa-check"></i>Bacteria Markers
-                  </li>
-                  <li>
-                    <i className="fa-solid fa-check"></i>Nam nec mi euismod
-                    euismod
-                  </li>
-                  <li>
-                    <i className="fa-solid fa-check"></i>In aliquet dui nec
-                    lectus
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="tp-srv-research mb-50">
-                <h4 className="tp-srv-research__title mb-25">Our Research</h4>
-                <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam, eaque
-                  ipsa quae ab illo inventore veritatis et quasi architecto
-                  beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
-                  quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                  consequuntur magni dolores eos qui ratione voluptatem sequi
-                  nesciunt. Neque porro quisquam est, qui dolorem ipsum quia
-                  dolor sit amet,
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-md-12">
-              <div className="tp-srv-bg mb-70">
-                <img
-                  src="/assets/img/services/services-thumb-09.jpg"
-                  alt="services-bg"
-                />
-              </div>
-              <div className="services-link tp-srv-link">
-                <span>
-                  Laboratories Used For Scientific Research :
-                  <Link href="/contact">
-                    OUr Project<i className="fa-solid fa-arrow-right"></i>
-                  </Link>
+        <div className="services-details__container container">
+          <div className="row text-center">
+            <div className="col-lg-12 col-md-12 col-12">
+              <div className="tp-section">
+                <span className="tp-section__sub-title left-line right-line mb-20">
+                  лікуємо
                 </span>
+                <h3 className="tp-section__title mb-70">Наші послуги</h3>
               </div>
             </div>
           </div>
+
+          <table className='services-details__table'>
+            <tr>
+              <th>Послуга</th>
+              <th>Вартість</th>
+            </tr>
+            <tr>
+              <td>Первинна консультація невролога-вертебролога</td>
+              <td>600 грн</td>
+            </tr>
+            <tr>
+              <td>Первинна консультація ортопеда-травматолога</td>
+              <td>500 грн</td>
+            </tr>
+            <tr>
+              <td>Первинна консультація мануального терапевта, остеопата</td>
+              <td>600 грн</td>
+            </tr>
+            <tr>
+              <td>Первинна консультація реабілітолога</td>
+              <td>500 грн</td>
+            </tr>
+            <tr>
+              <td>Повторна консультація невролога-вертебролога</td>
+              <td>400 грн</td>
+            </tr>
+            <tr>
+              <td>Повторна консультація ортопеда-травматолога</td>
+              <td>300 грн</td>
+            </tr>
+            <tr>
+              <td>PRP-терапія хребта</td>
+              <td>3100 грн</td>
+            </tr>
+            <tr>
+              <td>PRP-терапія суглобів та сухожиль</td>
+              <td>3000 грн</td>
+            </tr>
+            <tr>
+              <td>Внутрішньосуглобове введення гіалуронової кислоти (без вартості препарату)</td>
+              <td>600 грн</td>
+            </tr>
+            <tr>
+              <td> Інєкція колагену (в залежності від відділу)</td>
+              <td>700-1200  грн</td>
+            </tr>
+            <tr>
+              <td>Мануальна терапія</td>
+              <td>1200-1400 грн</td>
+            </tr>
+            <tr>
+              <td>Остеопатія</td>
+              <td>1400-2000 грн</td>
+            </tr>
+            <tr>
+              <td> Рефлексотерапія (в залежності від відділу)</td>
+              <td>600-1000 грн</td>
+            </tr>
+            <tr>
+              <td>Реабілітація (1 заняття)</td>
+              <td>450-500 грн</td>
+            </tr>
+            <tr>
+              <td>Післяопераційна реабілітація (1 заняття)</td>
+              <td>500-600 грн</td>
+            </tr>
+            <tr>
+              <td>Реабілітація після переломів (1 заняття)</td>
+              <td>500-600 грн</td>
+            </tr>
+            <tr>
+              <td>Кінезіотерапія (1 заняття) </td>
+              <td>500 грн</td>
+            </tr>
+            <tr>
+              <td>Тейпування ( в залежності від відділу)</td>
+              <td>250-400 грн</td>
+            </tr>
+            <tr>
+              <td>Електрофорез (1 процедура)</td>
+              <td>250 грн</td>
+            </tr>
+            <tr>
+              <td>Магнітотерапія (1 процедура)</td>
+              <td>250 грн</td>
+            </tr>
+            <tr>
+              <td> Ультрафонофорез з мазями (1 процедура)</td>
+              <td>250 грн</td>
+            </tr>
+            <tr>
+              <td> Витяжіння хребта та суглобів (1 процедура)</td>
+              <td>500-550 грн</td>
+            </tr>
+            <tr>
+              <td> Стимуляція ( 1 процедура)</td>
+              <td>300 грн</td>
+            </tr>
+            <tr>
+              <td>Магнітолазер (1 процедура)</td>
+              <td>250 грн</td>
+            </tr>
+            <tr>
+              <td>Лікувальний масаж шийно-комірцевої зони (тривалість 25 хв)</td>
+              <td>400 грн</td>
+            </tr>
+            <tr>
+              <td>Лікувальний масаж шийно-комірцевої зони та грудного відділу хребта (тривалість 35 хв)</td>
+              <td>500 грн</td>
+            </tr>
+            <tr>
+              <td>Лікувальний масаж всієї спини (тривалість 45 хв)</td>
+              <td>600 грн</td>
+            </tr>
+            <tr>
+              <td>Загальний масаж (тривалість 60-70 хв)</td>
+              <td>1000-1200 грн</td>
+            </tr>
+            <tr>
+              <td>Дитячий масаж від 7 років (тривалість 20-40 хв)</td>
+              <td>300-500 грн</td>
+            </tr>
+            <tr>
+              <td>Спортивний масаж (тривалість 40 хв)</td>
+              <td>700 грн</td>
+            </tr>
+            <tr>
+              <td>Лімфодренажний масаж (тривалість 20-40 хв)</td>
+              <td>400-800 грн</td>
+            </tr>
+            <tr>
+              <td>Розслабляючий масаж (тривалість 40-60 хв)</td>
+              <td>600-1000 грн</td>
+            </tr>
+            <tr>
+              <td>Пункція суглоба</td>
+              <td>600 грн</td>
+            </tr>
+            <tr>
+              <td>Накладання гіпсової пов`язки без репозиції</td>
+              <td>600-1000 грн</td>
+            </tr>
+            <tr>
+              <td>Накладання Scotchcast без репозиції</td>
+              <td>800-1400 грн</td>
+            </tr>
+            <tr>
+              <td>Комплексне лікування сколіозу (лікувальна фізкультура 30-40 хв+ масаж спини 30-40 хв) </td>
+              <td>950-1050 грн</td>
+            </tr>
+          </table>
         </div>
       </section>
     </>

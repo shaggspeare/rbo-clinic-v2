@@ -1,18 +1,16 @@
-import DirectContactUs from "@/components/forms/direct-contact-us";
-import FooterFour from "@/layout/footer/footer-4";
-import HeaderTwo from "@/layout/header/header-two";
-import React from "react";
-import Banner from "./banner";
-import ServiceDetailsArea from "./service-details-area";
+import React from 'react';
+import Footer from '@/layout/footer/footer';
+import ServiceDetailsArea from './service-details-area';
+import Header from '@/layout/header/header';
+import Appointment from '@/components/home/home/appointment';
 
 const ServiceDetails = () => {
   return (
     <>
-      <HeaderTwo />
-      <Banner />
+      <Header withBg />
       <ServiceDetailsArea />
-      <DirectContactUs />
-      <FooterFour />
+      <Appointment />
+      <Footer />
     </>
   );
 };
