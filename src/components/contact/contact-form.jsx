@@ -56,7 +56,7 @@ const ContactForm = () => {
                   </div>
                 </div>
               </div>
-              <div className="tpcontact mr-60 mb-60 wow fadeInUp" data-wow-delay=".6s">
+              <div className="tpcontact mr-60 mb-60">
                 <div className="tpcontact__item text-center">
                   <div className="tpcontact__icon mb-20">
                     <img src="/assets/img/icon/contact-03.svg" alt="schedule" />
