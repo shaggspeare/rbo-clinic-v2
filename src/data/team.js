@@ -1,15 +1,6 @@
 const team_data = [
   {
     id: 1,
-    img: '/assets/img/team/oksana.jpeg',
-    name: 'Оксана Олександрівна',
-    title: 'Сестра медична з фізіотерапії',
-    des: ' Providing insight-driven transformation to investment banks, wealth and asset mana, exchanges, Finance',
-    social_links: [],
-    personalLink: 'oksana',
-  },
-  {
-    id: 2,
     img: '/assets/img/team/serhii.jpeg',
     name: 'Ячник Сергій Петрович',
     title: 'Лікар невролог-вертебролог, мануальний терапевт, остеопат',
@@ -26,7 +17,7 @@ const team_data = [
     personalLink: 'serhii',
   },
   {
-    id: 3,
+    id: 2,
     img: '/assets/img/team/sasha.jpeg',
     name: 'Ячник Олександр Сергійович',
     title: 'Лікар ортопед-травматолог, реабілітолог',
@@ -49,7 +40,15 @@ const team_data = [
     ],
     personalLink: 'oleksandr',
   },
-
+  {
+    id: 3,
+    img: '/assets/img/team/oksana.jpeg',
+    name: 'Оксана Олександрівна',
+    title: 'Сестра медична з фізіотерапії',
+    des: ' Providing insight-driven transformation to investment banks, wealth and asset mana, exchanges, Finance',
+    social_links: [],
+    personalLink: 'oksana',
+  },
   {
     id: 4,
     img: '/assets/img/team/vlad.jpeg',

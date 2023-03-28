@@ -96,11 +96,6 @@ const About = () => {
                     ))}
                   </ul>
                 </div>
-                <div className="tp-about__btn">
-                  <Link className="tp-btn" href="/about">
-                    детальніше
-                  </Link>
-                </div>
               </div>
             </div>
           </div>

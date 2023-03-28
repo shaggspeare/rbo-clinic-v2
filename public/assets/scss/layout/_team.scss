@@ -319,7 +319,7 @@
     }
     & p {
       margin-bottom: 50px;
-      color: var(--tp-text-2);
+
       @media #{$md} {
         margin-bottom: 20px;
       }
@@ -334,6 +334,12 @@
 
   &__short-desc {
     font-size: 20px;
+    color: var(--tp-text-2);
+  }
+
+  &__specialty {
+    color: var(--tp-common-black);
+    text-decoration: underline;
   }
   &__info {
     & ul {

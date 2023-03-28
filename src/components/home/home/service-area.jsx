@@ -105,7 +105,7 @@ const ServiceArea = () => {
             <div>
               <Swiper
                 {...setting}
-                loop={isLoop}
+                loop={false}
                 modules={[Navigation]}
                 className="service-active"
               >
@@ -119,13 +119,13 @@ const ServiceArea = () => {
                       </div>
                       <div className="services-item__content">
                         <h4 className="services-item__tp-title tp-srv-title mb-30">
-                          <Link href="/services-details">{item.title}</Link>
+                          <Link href="/service-details">{item.title}</Link>
                         </h4>
                         <p>{item.des}</p>
                         <div className="services-item__btn">
                           <Link
                               className={`btn-hexa ${item.btn_color}`}
-                              href="/service"
+                              href="/service-details"
                           >
                             <i></i>Показати ціни
                           </Link>

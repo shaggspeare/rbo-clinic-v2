@@ -4,16 +4,15 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Link from "next/link.js";
 import { Navigation } from "swiper";
 
-
 // slider setting
 const setting = {
-  //   loop: true,
   slidesPerView: 3,
   spaceBetween: 30,
   autoplay: {
     delay: 4500,
     disableOnInteraction: true,
   },
+  initialSlide: 0,
   breakpoints: {
     1200: {
       slidesPerView: 3,
@@ -74,7 +73,7 @@ const Team = () => {
             className="swiper-container team-active wow fadeInUp"
             data-wow-delay=".3s"
           >
-            <Swiper {...setting} loop={isLoop} modules={[Navigation]}>
+            <Swiper {...setting} loop={false} modules={[Navigation]}>
               {team_data.map((item) => (
                 <SwiperSlide key={item.id}>
                   <div className="swiper-slide">

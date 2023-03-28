@@ -10,7 +10,7 @@ const Appointment = () => {
           <div className="row">
             <div className="col-xxl-6 col-xl-5 col-lg-12 col-md-12 p-0">
               <div className="appoinment-thumb">
-                <Image src="/assets/img/background/reception.jpeg" alt="appointment-img" width={1200} height={747} />
+                <Image src="/assets/img/background/reception.jpg" alt="appointment-img" width={1200} height={747} />
               </div>
             </div>
             <div className="col-xxl-6 col-xl-7 col-lg-12 col-md-12 p-0">

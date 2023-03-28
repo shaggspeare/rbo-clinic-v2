@@ -303,7 +303,7 @@ const TeamDetailsArea = ({ keyName }) => {
               <div className="tp-team-dtls__content mt-50 mb-50">
                 <h4 className="tp-team-dtls__title mb-10">{memberInfo.name}</h4>
                 <p className="tp-team-dtls__short-desc mb-35">{memberInfo.title}</p>
-                <p>{memberInfo.description}</p>
+                <p className="tp-team-dtls__specialty">{memberInfo.description}</p>
                 <div className="tp-team-dtls__info">
                   {memberInfo.socialLinks && (
                     <div className="tp-team-dtls__social mt-45 mb-50">

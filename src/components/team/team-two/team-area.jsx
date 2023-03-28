@@ -26,7 +26,7 @@ const TeamArea = () => {
                   </div>
                   <div className="tp-team__content">
                     <h4 className="tp-team__title mb-15">
-                      <Link href="/team-details">{item.name}</Link>
+                      <Link href={`team/${item.personalLink}`}>{item.name}</Link>
                     </h4>
                     <span className="tp-team__position mb-30">{item.title}</span>
                     {/*<p>{item.des} </p>*/}

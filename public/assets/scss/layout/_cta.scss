@@ -258,6 +258,10 @@
 // contact
 .tpcontact-wrapper {
   display: flex;
+
+  @media #{$xs} {
+    flex-wrap: wrap;
+  }
 }
 
 .tpcontact {
