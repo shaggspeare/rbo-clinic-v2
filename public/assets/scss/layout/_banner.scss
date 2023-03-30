@@ -141,11 +141,14 @@
         top: 0;
         right: 0;
         width: 724px;
-        @media #{$xxxl,$xxl} {
+        @media #{$xxxl} {
             width: 600px;
         }
+        @media #{$xxl} {
+            width: 560px;
+        }
         @media #{$xl} {
-            width: 400px;
+            width: 450px;
         }
         @media #{$lg} {
             width: 420px;
@@ -158,12 +161,18 @@
             max-width: 100%;
             height: 930px;
             object-fit: cover;
+
+            @media #{$xxl} {
+                height: 850px;
+            }
+
+            @media #{$xl} {
+                height: 750px;
+            }
             @media #{$lg} {
                 height: 600px;
             }
-            @media #{$xl} {
-                height: 630px;
-            }
+
         }
     }
     &__video-btn {
