@@ -38,7 +38,7 @@ const ResultsShowdown = () => {
                     <div className="services-thumb-box__content">
                       <h5 className="services-thumb-box__title">{item.name}</h5>
 
-                      <p className="services-thumb-box__desc">{item.description}</p>
+                      <div className="services-thumb-box__desc">{item.description}</div>
                     </div>
                   </div>
                 </div>

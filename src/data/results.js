@@ -24,7 +24,7 @@ const results = [
     ),
   },
   {
-    id: 2,
+    id: 3,
     img1: '/assets/img/results/results-3-1.jpg',
     img2: '/assets/img/results/results-3-2.jpg',
     name: 'Діагноз: перелом основи шийки лівої стегнової кістки.',
