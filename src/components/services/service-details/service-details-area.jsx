@@ -9,18 +9,17 @@ const ServiceDetailsArea = () => {
           <div className="row text-center">
             <div className="col-lg-12 col-md-12 col-12">
               <div className="tp-section">
-                <span className="tp-section__sub-title left-line right-line mb-20">
-                  лікуємо
-                </span>
+                <span className="tp-section__sub-title left-line right-line mb-20">лікуємо</span>
                 <h3 className="tp-section__title mb-70">Наші послуги</h3>
               </div>
             </div>
           </div>
 
-          <table className='services-details__table'>
+          <table className="services-details__table">
             <tr>
-              <th>Послуга</th>
-              <th>Вартість</th>
+              <td colSpan={2} className="category">
+                Консультації лікарів
+              </td>
             </tr>
             <tr>
               <td>Первинна консультація невролога-вертебролога</td>
@@ -47,6 +46,11 @@ const ServiceDetailsArea = () => {
               <td>300 грн</td>
             </tr>
             <tr>
+              <td colSpan={2} className="category">
+                Ін`єкційні методи лікування
+              </td>
+            </tr>
+            <tr>
               <td>PRP-терапія хребта</td>
               <td>3100 грн</td>
             </tr>
@@ -59,8 +63,13 @@ const ServiceDetailsArea = () => {
               <td>600 грн</td>
             </tr>
             <tr>
-              <td> Інєкція колагену (в залежності від відділу)</td>
-              <td>700-1200  грн</td>
+              <td> Ін`єкція колагену (в залежності від відділу)</td>
+              <td>700-1200 грн</td>
+            </tr>
+            <tr>
+              <td colSpan={2} className="category">
+                Терапія
+              </td>
             </tr>
             <tr>
               <td>Мануальна терапія</td>
@@ -73,6 +82,11 @@ const ServiceDetailsArea = () => {
             <tr>
               <td> Рефлексотерапія (в залежності від відділу)</td>
               <td>600-1000 грн</td>
+            </tr>
+            <tr>
+              <td colSpan={2} className="category">
+                Реабілітація, Кінезіотерапія, Тейпування
+              </td>
             </tr>
             <tr>
               <td>Реабілітація (1 заняття)</td>
@@ -93,6 +107,11 @@ const ServiceDetailsArea = () => {
             <tr>
               <td>Тейпування ( в залежності від відділу)</td>
               <td>250-400 грн</td>
+            </tr>
+            <tr>
+              <td colSpan={2} className="category">
+                Фізіотерапевтичні процедури
+              </td>
             </tr>
             <tr>
               <td>Електрофорез (1 процедура)</td>
@@ -117,6 +136,11 @@ const ServiceDetailsArea = () => {
             <tr>
               <td>Магнітолазер (1 процедура)</td>
               <td>250 грн</td>
+            </tr>
+            <tr>
+              <td colSpan={2} className="category">
+                Масаж
+              </td>
             </tr>
             <tr>
               <td>Лікувальний масаж шийно-комірцевої зони (тривалість 25 хв)</td>
@@ -151,6 +175,11 @@ const ServiceDetailsArea = () => {
               <td>600-1000 грн</td>
             </tr>
             <tr>
+              <td colSpan={2} className="category">
+                Травматологічні процедури
+              </td>
+            </tr>
+            <tr>
               <td>Пункція суглоба</td>
               <td>600 грн</td>
             </tr>
@@ -161,6 +190,11 @@ const ServiceDetailsArea = () => {
             <tr>
               <td>Накладання Scotchcast без репозиції</td>
               <td>800-1400 грн</td>
+            </tr>
+            <tr>
+              <td colSpan={2} className="category">
+                Комплексне лікування сколіозу
+              </td>
             </tr>
             <tr>
               <td>Комплексне лікування сколіозу (лікувальна фізкультура 30-40 хв+ масаж спини 30-40 хв) </td>

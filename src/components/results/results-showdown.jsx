@@ -28,18 +28,17 @@ const ResultsShowdown = () => {
                     </div>
                   )}
                   <div className="services-thumb-box__thumb fix">
-                    <img src={item.img1} alt="services-thumb" />
-                    {!!item.img2 && <img src={item.img2} alt="services-thumb" />}
+                    <img src={item.img1} alt="services-thumb" className={item.orientation || 'vertical'} />
+                    {!!item.img2 && (
+                      <img src={item.img2} alt="services-thumb" className={item.orientation || 'vertical'} />
+                    )}
                   </div>
 
                   <div className="services-thumb-box__text-area d-flex align-items-center">
                     <div className="services-thumb-box__content">
                       <h5 className="services-thumb-box__title">{item.name}</h5>
 
-                      <p className="services-thumb-box__desc">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci asperiores atque, deserunt
-                        distinctio eligendi eos explicabo facilis omnis suscipit tempora
-                      </p>
+                      <p className="services-thumb-box__desc">{item.description}</p>
                     </div>
                   </div>
                 </div>

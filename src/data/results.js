@@ -1,24 +1,42 @@
 const results = [
   {
     id: 1,
-    img1: "/assets/img/services/services-thumb-01.jpg",
-    img2: "/assets/img/services/services-thumb-02.jpg",
-    name: "demo 2 photos long",
-    description: "",
+    img1: '/assets/img/results/results-1.jpg',
+    img2: '',
+    name: 'Безопераційний лікування гриж поперекового відділу хребта.',
+    orientation: 'vertical',
+    description: (
+      <>
+        До лікування : Грижа L4-L5 ( 0,9см), L5-S1 (0,6см).
+        <br />
+        Після лікування: L4-L5 протрузія, L5-S1 протрузія.
+      </>
+    ),
   },
   {
     id: 2,
-    img1: "/assets/img/team/oksana-small.jpg",
-    img2: "/assets/img/team/sasha-small.jpg",
-    name: "demo 2 photos high",
-    description: "",
+    img1: '/assets/img/results/results-2-1.jpg',
+    img2: '/assets/img/results/results-2-2.jpg',
+    name: 'Діагноз: Кіфосколіотична постава, ідіопатичний сколіоз.',
+      orientation: 'vertical',
+    description: (
+      <>Результат лікування через 10 занять з реабілітологом (лікувальної фізкультури + лікувальний масаж).</>
+    ),
   },
   {
     id: 2,
-    img1: "/assets/img/team/vlad-small.jpg",
-    img2: "",
-    name: "demo single person",
-    description: "",
+    img1: '/assets/img/results/results-3-1.jpg',
+    img2: '/assets/img/results/results-3-2.jpg',
+    name: 'Діагноз: перелом основи шийки лівої стегнової кістки.',
+    orientation: 'horizontal',
+    description: (
+      <>
+        Було прийняте рішення про оперативне лікування: ендопротезування лівого кульшового суглоба.
+        <br />
+        1 фото- рентгенографія до операції.
+        <br />2 фото- ренгенографія після операції.
+      </>
+    ),
   },
 ];
 

@@ -422,10 +422,27 @@
       flex-grow: 1;
       min-width: 50%;
       max-width: 100%;
-      height: 500px;
+      height: 600px;
       object-fit: cover;
-      @media #{$md,$xs} {
-        height: 300px;
+      &.vertical {
+        height: 600px;
+        @media #{ $xxl} {
+          height: 500px;
+        }
+
+        @media #{$lg, $xl} {
+          height: 400px;
+        }
+        @media #{$md,$xs} {
+          height: 300px;
+        }
+      }
+      &.horizontal {
+        height: 400px;
+
+        @media #{$md,$xs} {
+          height: 300px;
+        }
       }
     }
   }
@@ -633,6 +650,11 @@ div.tp-srv-link {
     border: 2px solid darkgray;
     border-radius: 4px;
     font-size: 18px;
+
+    .category {
+      font-weight: bold;
+      padding: 15px 15px;
+    }
 
     tr {
       &:nth-child(even) {
