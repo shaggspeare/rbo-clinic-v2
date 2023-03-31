@@ -57,7 +57,7 @@ const HeroBanner = () => {
 
   return (
     <>
-      <section className="banner-area p-relative pt-90">
+      <section className="banner-area p-relative">
         <div className="container">
           <div className="row">
             <div className="col-xl-7">

@@ -5,6 +5,14 @@
 /*----------------------------------------*/
 
 
+.banner-area {
+    padding-top: 90px;
+
+    @media #{$xs} {
+        padding-top: 0;
+    }
+}
+
 .banner {
     &__sub-title {
         text-transform: uppercase;
@@ -47,7 +55,7 @@
         }
         @media #{$xs} {
             text-align: center;
-            padding-top: 80px;
+            padding-top: 30px;
         }
         & p {
             font-size: 18px;
