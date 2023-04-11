@@ -51,7 +51,7 @@ const About = () => {
                   </ul>
                 </div>
                 <div className="tp-about__btn">
-                  <Link className="tp-btn" href="/about">
+                  <Link className="tp-btn" href="/_about">
                     About us
                   </Link>
                 </div>

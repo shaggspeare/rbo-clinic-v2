@@ -95,7 +95,7 @@ const Blog = () => {
                       </h5>
                       <p>{item.blog_des}</p>
                       <div className="tp-blog__btn">
-                        <Link href="/blog">Read moRe</Link>
+                        <Link href="/_blog">Read moRe</Link>
                       </div>
                     </div>
                   </div>

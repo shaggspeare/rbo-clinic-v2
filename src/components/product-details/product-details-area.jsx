@@ -597,7 +597,7 @@ const ProductDetailsArea = () => {
                   <div className="swiper-slide">
                     <div className="tpshopitem mb-50">
                       <div className="tpshopitem__thumb p-relative fix mb-35">
-                        <Link href="/shop">
+                        <Link href="/_shop">
                           <img src={item.img} alt="shop-thumb" />
                         </Link>
                         <div className="tpshopitem__thumb-icon">
@@ -614,7 +614,7 @@ const ProductDetailsArea = () => {
                       </div>
                       <div className="tpshopitem__content text-center">
                         <span className="tpshopitem__title mb-5">
-                          <Link href="/shop">{item.name}</Link>
+                          <Link href="/_shop">{item.name}</Link>
                         </span>
                         <p>${item.price}</p>
                         <div className="tpshopitem__review">

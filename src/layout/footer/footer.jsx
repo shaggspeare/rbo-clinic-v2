@@ -9,10 +9,11 @@ const footer_content = {
       title: 'Мапа сайту',
       cls: 'footer-col-2',
       links: [
-        { name: 'Контакти', link: '/contact-us' },
-        { name: 'Про нас', link: '/about' },
         { name: 'Команда', link: '/team' },
+        { name: 'Контакти', link: '/contact' },
         { name: 'Послуги', link: '/service' },
+        { name: 'Результати лікування', link: '/results' },
+        { name: 'Про нас', link: '/about' },
       ],
     },
     {

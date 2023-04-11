@@ -139,7 +139,7 @@ const PostBox = () => {
                           <i className="fa-regular fa-clock"></i> {article.date}
                         </span>
                         <span>
-                          <Link href="/about">
+                          <Link href="/_about">
                             <i className="fa-regular fa-message-dots"></i>
                             {article.comments}
                           </Link>
@@ -167,24 +167,24 @@ const PostBox = () => {
                   <nav>
                     <ul>
                       <li>
-                        <Link href="/blog">
+                        <Link href="/_blog">
                           <i className="fa-light fa-arrow-left-long"></i>
                         </Link>
                       </li>
                       <li>
-                        <Link href="/blog">1</Link>
+                        <Link href="/_blog">1</Link>
                       </li>
                       <li>
                         <span className="current">2</span>
                       </li>
                       <li>
-                        <Link href="/blog"> 3 </Link>
+                        <Link href="/_blog"> 3 </Link>
                       </li>
                       <li>
-                        <Link href="/blog">...</Link>
+                        <Link href="/_blog">...</Link>
                       </li>
                       <li>
-                        <Link href="/blog">
+                        <Link href="/_blog">
                           <i className="fa-light fa-arrow-right-long"></i>
                         </Link>
                       </li>

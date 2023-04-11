@@ -21,7 +21,7 @@ const CheckoutBanner = () => {
               <div className="col-xl-5 col-lg-12 col-md-12 col-12">
                 <div className="tp-breadcrumb__link text-xl-end">
                   <span>
-                    Bioxlab : <Link href="/checkout">Checkout</Link>
+                    Bioxlab : <Link href="/_checkout">Checkout</Link>
                   </span>
                 </div>
               </div>

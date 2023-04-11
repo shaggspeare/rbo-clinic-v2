@@ -81,7 +81,7 @@ const Specialists = () => {
             <div className="col-lg-12">
               <div className="tp-section text-center">
                 <span className="tp-section__sub-title left-line right-line mb-25">
-                  наша спеціальність
+                  наша спеціалізація
                 </span>
                 <h3 className="tp-section__title title-white mb-85">
                   Чому обирають нас

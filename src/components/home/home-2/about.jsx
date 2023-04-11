@@ -102,7 +102,7 @@ const About = () => {
                     <p className=" mr-20 mb-35">{dex_2}</p>
                   </div>
                   <div className="about-content__btn">
-                    <Link href="/about" className="tp-btn">
+                    <Link href="/_about" className="tp-btn">
                       {btn}
                     </Link>
                   </div>

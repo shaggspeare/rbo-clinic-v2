@@ -37,24 +37,24 @@ const ResearchArea = () => {
                 <nav>
                   <ul>
                     <li>
-                      <Link href="/research">
+                      <Link href="/_research">
                         <i className="fa-light fa-arrow-left-long"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link href="/research">1</Link>
+                      <Link href="/_research">1</Link>
                     </li>
                     <li>
                       <span className="current">2</span>
                     </li>
                     <li>
-                      <Link href="/research">3</Link>
+                      <Link href="/_research">3</Link>
                     </li>
                     <li>
-                      <Link href="/research">...</Link>
+                      <Link href="/_research">...</Link>
                     </li>
                     <li>
-                      <Link href="/research">
+                      <Link href="/_research">
                         <i className="fa-light fa-arrow-right-long"></i>
                       </Link>
                     </li>

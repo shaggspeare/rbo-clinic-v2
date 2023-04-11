@@ -74,7 +74,7 @@ const Team = () => {
                       </div>
                       <div className="team-item__content">
                         <h5 className="team-item__title mb-15">
-                          <Link href="/team-details">{item.name}</Link>
+                          <Link href="/_team-details">{item.name}</Link>
                         </h5>
                         <span>{item.title}</span>
                         <div className="team-item__social-info">

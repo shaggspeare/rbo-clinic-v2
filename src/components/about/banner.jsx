@@ -20,7 +20,7 @@ const Banner = () => {
             <div className="col-xl-5 col-lg-12 col-md-12 col-12">
               <div className="tp-breadcrumb__link text-xl-end">
                 <span>
-                  Bioxlab : <Link href="/team-details"> About us</Link>
+                  Bioxlab : <Link href="/_team-details"> About us</Link>
                 </span>
               </div>
             </div>

@@ -47,7 +47,7 @@ const FooterTwo = () => {
                           <Link href="/contact">Contact us</Link>
                         </li>
                         <li>
-                          <Link href="/about">Help & About us</Link>
+                          <Link href="/_about">Help & About us</Link>
                         </li>
                         <li>
                           <Link href="/shop-details">Shipping & Returns</Link>
@@ -56,7 +56,7 @@ const FooterTwo = () => {
                           <Link href="/">Refund Policy</Link>
                         </li>
                         <li>
-                          <Link href="/about">About us</Link>
+                          <Link href="/_about">About us</Link>
                         </li>
                         <li>
                           <Link href="/services-details">Services</Link>

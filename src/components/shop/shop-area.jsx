@@ -43,7 +43,7 @@ const ShopArea = () => {
                   data-wow-delay=".6s"
                 >
                   <div className="tpshopitem__thumb p-relative fix p-relative mb-35">
-                    <Link href="/product-details">
+                    <Link href="/_product-details">
                       <img src={item.img} alt="shop-thumb" />
                     </Link>
                     {item.product_news && (
@@ -65,7 +65,7 @@ const ShopArea = () => {
                   </div>
                   <div className="tpshopitem__content text-center">
                     <span className="tpshopitem__title mb-5">
-                      <Link href="/product-details">{item.title}</Link>
+                      <Link href="/_product-details">{item.title}</Link>
                     </span>
                     <p>${item.price}</p>
                     <div className="tpshopitem__review">
@@ -84,24 +84,24 @@ const ShopArea = () => {
                 <nav>
                   <ul>
                     <li>
-                      <Link href="/product-details">
+                      <Link href="/_product-details">
                         <i className="fa-light fa-arrow-left-long"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link href="/product-details">1</Link>
+                      <Link href="/_product-details">1</Link>
                     </li>
                     <li>
                       <span className="current">2</span>
                     </li>
                     <li>
-                      <Link href="/product-details">3</Link>
+                      <Link href="/_product-details">3</Link>
                     </li>
                     <li>
-                      <Link href="/product-details">...</Link>
+                      <Link href="/_product-details">...</Link>
                     </li>
                     <li>
-                      <Link href="/product-details">
+                      <Link href="/_product-details">
                         <i className="fa-light fa-arrow-right-long"></i>
                       </Link>
                     </li>

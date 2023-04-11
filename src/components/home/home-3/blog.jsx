@@ -58,7 +58,7 @@ const Blog = () => {
             </div>
             <div className="col-md-4 col-12">
               <div className="tp-blog-btn mb-30">
-                <Link href="/blog" className="tp-btn-second">
+                <Link href="/_blog" className="tp-btn-second">
                   All Blog
                 </Link>
               </div>
@@ -85,7 +85,7 @@ const Blog = () => {
                           </div>
                         </div>
                         <div className="blogitem__medi">
-                          <Link href="/shop">{item.category}</Link>
+                          <Link href="/_shop">{item.category}</Link>
                         </div>
                       </div>
                       <div className="blogitem__title-area p-relative">
@@ -105,7 +105,7 @@ const Blog = () => {
                           <Link href="/blog-details">{item.title}</Link>
                         </h5>
                         <div className="tp-blog__btn blog-bg-btn">
-                          <Link href="/blog">Read moRe</Link>
+                          <Link href="/_blog">Read moRe</Link>
                         </div>
                       </div>
                     </div>

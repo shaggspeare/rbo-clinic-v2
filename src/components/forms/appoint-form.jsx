@@ -119,11 +119,11 @@ const AppointForm = () => {
           </div>
         </div>
         <div className="col-lg-8 col-md-8 col-12">
-          <div className="visit-serial mt-45">
+          <div className="visit-serial">
             <span>
               Або зателефонуйте нам: <br />
               <a href="tel:+380963050004">+38(096)305 00 04</a>
-              &nbsp;&nbsp;та&nbsp;&nbsp;
+              <br />
               <a href="tel:+380933050004">+38(093)305 00 04</a>
             </span>
           </div>

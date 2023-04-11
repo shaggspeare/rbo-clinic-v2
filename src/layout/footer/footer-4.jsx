@@ -51,7 +51,7 @@ const FooterFour = ({ style_2 = false }) => {
                           <Link href="/contact">Contact us</Link>
                         </li>
                         <li>
-                          <Link href="/about">Help & About us</Link>
+                          <Link href="/_about">Help & About us</Link>
                         </li>
                         <li>
                           <Link href="/contact">Shipping & Returns</Link>
@@ -60,7 +60,7 @@ const FooterFour = ({ style_2 = false }) => {
                           <Link href="/contact">Refund Policy</Link>
                         </li>
                         <li>
-                          <Link href="/about">About us</Link>
+                          <Link href="/_about">About us</Link>
                         </li>
                         <li>
                           <Link href="/services-details">Services</Link>

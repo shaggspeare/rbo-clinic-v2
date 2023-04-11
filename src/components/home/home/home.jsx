@@ -2,11 +2,11 @@ import React from "react";
 import About from "./about";
 import Appointment from "./appointment";
 import Counter from "../../../common/counter";
-import Feedback from "./feedback";
 import HeroBanner from "./hero-banner";
 import ServiceArea from "./service-area";
 import Specialists from "../../../common/specialists";
 import Team from "../../../common/team";
+import Testimonial from "@/common/testimonial";
 
 const HomeOne = () => {
   return (
@@ -18,7 +18,8 @@ const HomeOne = () => {
       <Specialists />
       <Appointment />
       <Team />
-      <Feedback />
+
+        <Testimonial bg_img={false} />
     </>
   );
 };

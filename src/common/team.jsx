@@ -55,7 +55,7 @@ const Team = () => {
                 <span className="tp-section__sub-title left-line mb-25">
                   Наша команда
                 </span>
-                <h3 className="tp-section__title mb-75">Зустрічайте своїх лікарів</h3>
+                <h3 className="tp-section__title mb-75">Ваші лікарі</h3>
               </div>
             </div>
             <div className="col-lg-4 col-md-4 col-12">

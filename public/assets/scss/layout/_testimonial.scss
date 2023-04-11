@@ -86,7 +86,7 @@
 .testi-content {
   & p {
     color: var(--tp-common-white);
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
     line-height: 36px;
     padding: 0 22px;
@@ -113,7 +113,7 @@
   & span {
     font-weight: 700;
     font-size: 14px;
-    color: rgba(255, 255, 255, 0.56);
+
     text-transform: uppercase;
   }
 }

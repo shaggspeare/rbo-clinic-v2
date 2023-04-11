@@ -31,7 +31,7 @@ const PostBoxDetails = () => {
                         <div className="postbox__content-area pb-20">
                           <div className="postbox__meta mb-40">
                             <span>
-                              <Link href="/team-details">
+                              <Link href="/_team-details">
                                 <i className="fa-regular fa-user"></i> Alextina
                               </Link>
                             </span>
@@ -160,9 +160,9 @@ const PostBoxDetails = () => {
                           <div className="postbox__tag">
                             <div className="postbox__tag-list tagcloud">
                               <span>Tag</span>
-                              <Link href="/blog">Covid-19</Link>
-                              <Link href="/blog">Bacteria</Link>
-                              <Link href="/blog">Medicine</Link>
+                              <Link href="/_blog">Covid-19</Link>
+                              <Link href="/_blog">Bacteria</Link>
+                              <Link href="/_blog">Medicine</Link>
                             </div>
                           </div>
                         </div>
