@@ -7,10 +7,10 @@ const Appointment = () => {
     <>
       <section className="appoinment-area" id='appointment-home'>
         <div>
-          <div className="row">
+          <div className='appoinment-area__wrapper'>
             <div className="col-xxl-6 col-xl-5 col-lg-12 col-md-12 p-0">
               <div className="appoinment-thumb">
-                <Image src="/assets/img/background/reception.jpg" alt="appointment-img" width={1200} height={747} />
+                <Image src="/assets/img/background/reception.jpg" alt="appointment-img" width={1200} height={747} className="appoinment-thumb__img"/>
               </div>
             </div>
             <div className="col-xxl-6 col-xl-7 col-lg-12 col-md-12 p-0">

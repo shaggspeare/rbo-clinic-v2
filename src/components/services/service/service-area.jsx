@@ -34,14 +34,15 @@ const ServiceArea = () => {
                       <Link href="/service-details">{item.title}</Link>
                     </h4>
                     <p>{item.des}</p>
-                    <div className="services-item__btn">
-                      <Link
+
+                  </div>
+                  <div className="services-item__btn">
+                    <Link
                         className={`btn-hexa ${item.btn_color}`}
                         href="/service-details"
-                      >
-                        <i></i>Показати ціни
-                      </Link>
-                    </div>
+                    >
+                      <i></i>Показати ціни
+                    </Link>
                   </div>
                 </div>
               </div>

@@ -167,7 +167,7 @@ const Testimonial = ({ bg_img }) => {
                 className={`swiper-container ${bg_img ? '' : 'tp-testimonial-text '} test-active`}
               >
                 {feedback.map((item, i) => (
-                  <SwiperSlide key={i + item.id}>
+                  <SwiperSlide key={item.id}>
                     <div className="testi-content text-center">
                       <p>{item.des}</p>
                       <i>{item.name}</i>

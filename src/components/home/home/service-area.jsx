@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper";
-import Link from "next/link";
-import ServiceOneData from "@/data/service-one-data";
+import React, { useEffect, useState } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation } from 'swiper';
+import Link from 'next/link';
+import ServiceOneData from '@/data/service-one-data';
 
 // slider setting
 const setting = {
@@ -27,8 +27,8 @@ const setting = {
   },
   // Navigation arrows
   navigation: {
-    nextEl: ".services-n",
-    prevEl: ".services-p",
+    nextEl: '.services-n',
+    prevEl: '.services-p',
   },
 };
 
@@ -36,35 +36,35 @@ const setting = {
 const slider_content = [
   {
     id: 1,
-    icon: "flaticon-hemoglobin-test-meter",
-    title: "HEMOGLOBIN TEST",
-    des: "Nam eget dui vel quam sodales semper quis porttitor tortor. Vivamus quis ex nulla.Nam eget dui vel quam",
-    color_icon: "",
-    color: "",
+    icon: 'flaticon-hemoglobin-test-meter',
+    title: 'HEMOGLOBIN TEST',
+    des: 'Nam eget dui vel quam sodales semper quis porttitor tortor. Vivamus quis ex nulla.Nam eget dui vel quam',
+    color_icon: '',
+    color: '',
   },
   {
     id: 2,
-    icon: "flaticon-blood-test",
-    title: "BLOOD TESTING",
-    des: "Nam eget dui vel quam sodales semper quis porttitor tortor. Vivamus quis ex nulla.Nam eget dui vel quam",
-    color_icon: "pink-icon",
-    color: "pink-hexa",
+    icon: 'flaticon-blood-test',
+    title: 'BLOOD TESTING',
+    des: 'Nam eget dui vel quam sodales semper quis porttitor tortor. Vivamus quis ex nulla.Nam eget dui vel quam',
+    color_icon: 'pink-icon',
+    color: 'pink-hexa',
   },
   {
     id: 3,
-    icon: "flaticon-biochemistry",
-    title: "BIOCHEMISTRY",
-    des: "Nam eget dui vel quam sodales semper quis porttitor tortor. Vivamus quis ex nulla.Nam eget dui vel quam",
-    color_icon: "green-icon",
-    color: "green-hexa",
+    icon: 'flaticon-biochemistry',
+    title: 'BIOCHEMISTRY',
+    des: 'Nam eget dui vel quam sodales semper quis porttitor tortor. Vivamus quis ex nulla.Nam eget dui vel quam',
+    color_icon: 'green-icon',
+    color: 'green-hexa',
   },
   {
     id: 4,
-    icon: "flaticon-dna-1",
-    title: "HISTOPATOLOGY",
-    des: "Nam eget dui vel quam sodales semper quis porttitor tortor. Vivamus quis ex nulla.Nam eget dui vel quam",
-    color_icon: "sky-icon",
-    color: "sky-hexa",
+    icon: 'flaticon-dna-1',
+    title: 'HISTOPATOLOGY',
+    des: 'Nam eget dui vel quam sodales semper quis porttitor tortor. Vivamus quis ex nulla.Nam eget dui vel quam',
+    color_icon: 'sky-icon',
+    color: 'sky-hexa',
   },
 ];
 
@@ -80,13 +80,10 @@ const ServiceArea = () => {
         style={{ backgroundImage: `url(/assets/img/shape/shape-bg-01.png)` }}
       >
         <div className="container">
-
           <div className="row align-items-center">
             <div className="col-lg-8 col-md-8 col-12">
               <div className="tp-section">
-                <span className="tp-section__sub-title left-line mb-20">
-                  лікуємо
-                </span>
+                <span className="tp-section__sub-title left-line mb-20">лікуємо</span>
                 <h3 className="tp-section__title mb-50">Наші послуги</h3>
               </div>
             </div>
@@ -103,17 +100,10 @@ const ServiceArea = () => {
           </div>
           <div className="services-slider  wow fadeInUp" data-wow-delay=".3s">
             <div>
-              <Swiper
-                {...setting}
-                loop={false}
-                modules={[Navigation]}
-                className="service-active"
-              >
-                {ServiceOneData.map((item) => (
+              <Swiper {...setting} loop={false} modules={[Navigation]} className="service-active">
+                {ServiceOneData.map(item => (
                   <SwiperSlide key={item.id}>
-                    <div
-                        className="services-item mb-40"
-                    >
+                    <div className="services-item mb-40">
                       <div className={`services-item__icon ${item.color} mb-30`}>
                         <i className={item.icon}></i>
                       </div>
@@ -122,14 +112,11 @@ const ServiceArea = () => {
                           <Link href="/service-details">{item.title}</Link>
                         </h4>
                         <p>{item.des}</p>
-                        <div className="services-item__btn">
-                          <Link
-                              className={`btn-hexa ${item.btn_color}`}
-                              href="/service-details"
-                          >
-                            <i></i>Показати ціни
-                          </Link>
-                        </div>
+                      </div>
+                      <div className="services-item__btn">
+                        <Link className={`btn-hexa ${item.btn_color}`} href="/service-details">
+                          <i></i>Показати ціни
+                        </Link>
                       </div>
                     </div>
                   </SwiperSlide>

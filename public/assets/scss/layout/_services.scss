@@ -44,14 +44,17 @@
   }
 }
 .services-item {
+  display: flex;
+  flex-direction: column;
   background-color: var(--tp-common-white);
-  padding: 70px 55px 70px 50px;
+  height: 480px;
+  padding: 30px 55px 30px 50px;
   border-radius: 5px;
   @media #{$xs} {
-    padding: 50px 25px 50px 25px;
+    padding: 30px 25px 30px 25px;
   }
   @media #{$md} {
-    padding: 50px 20px 50px 35px;
+    padding: 20px 20px 20px 35px;
   }
   &__icon {
     @include css-clip-path();
@@ -126,9 +129,11 @@
     }
   }
   &__content {
+    flex: 1;
     & p {
       font-size: 15px;
       margin-bottom: 45px;
+
       & br {
         @media #{$xl} {
           display: none;
