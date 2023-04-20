@@ -6,7 +6,7 @@ import Results from '@/components/results/results';
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle="Results" />
+      <SEO pageTitle="Результати лікування" />
       <Results />
     </Wrapper>
   );
