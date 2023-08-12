@@ -12,7 +12,7 @@ const BannerTeamTwo = () => {
       >
         <div className="team-banner__container">
 
-            <h2 className="team-banner__heading">Наша команда</h2>
+            <h1 className="team-banner__heading">Наша команда</h1>
             <Link className="tp-btn team-banner__btn" href="/#appointment-home">
                 Записатися на прийом
             </Link>

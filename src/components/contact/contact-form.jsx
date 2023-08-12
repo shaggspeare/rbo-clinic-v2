@@ -70,7 +70,7 @@ const ContactForm = () => {
             </div>
             <div className="col-12">
               <div className="contactform">
-                <h4 className="contactform__title mb-35">Як нас знайти :</h4>
+                <h1 className="contactform__title mb-35">Як нас знайти :</h1>
 
                 <div className="row">
                   <div className="col-lg-12">

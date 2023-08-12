@@ -1,10 +1,11 @@
 import Count from '@/common/count';
 import Link from 'next/link';
 import React from 'react';
+import Image from "next/image";
 
 // content
 const content = {
-  left_img: 'assets/img/background/sasha-pose-short.jpg',
+  left_img: '/assets/img/background/sasha-pose-short.jpg',
   experience_count: 5,
   experience_count_text: (
     <>
@@ -76,7 +77,7 @@ const About = () => {
             <div className="col-xl-6 col-lg-12">
               <div className="about__thumb mb-60 wow fadeInLeft" data-wow-delay=".4s">
                 <div className="about__img">
-                  <img src={left_img} alt="about-bg-img" />
+                  <Image src={left_img} alt="about-bg-img" width={600} height={800}/>
                   <div className="about__exprience">
                     <h3 className="counter">
                       <Count add_style={true} number={experience_count} />

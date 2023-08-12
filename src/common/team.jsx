@@ -3,6 +3,7 @@ import team_data from "../data/team.js";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Link from "next/link.js";
 import { Navigation } from "swiper";
+import Image from "next/image";
 
 // slider setting
 const setting = {
@@ -80,7 +81,7 @@ const Team = () => {
                     <div className="tp-team mb-50">
                       <div className="tp-team__thumb fix">
                         <a href={`team/${item.personalLink}`}>
-                          <img src={item.img} alt="team-thumb" />
+                          <Image src={item.img} alt="team-thumb" width={400} height={800}/>
                         </a>
                       </div>
                       <div className="tp-team__content">

@@ -13,7 +13,7 @@ const ResultsShowdown = () => {
             <div className="col-lg-5 col-md-12 col-12">
               <div className="tp-section tp-section-center">
                 <span className="tp-section__sub-title left-line mb-20">реальні кейси</span>
-                <h3 className="tp-section__title mb-75">Результати лікування</h3>
+                <h1 className="tp-section__title mb-75">Результати лікування</h1>
               </div>
             </div>
           </div>

@@ -10,7 +10,7 @@ const ServiceDetailsArea = () => {
             <div className="col-lg-12 col-md-12 col-12">
               <div className="tp-section">
                 <span className="tp-section__sub-title left-line right-line mb-20">лікуємо</span>
-                <h3 className="tp-section__title mb-70">Наші послуги</h3>
+                <h1 className="tp-section__title mb-70">Наші послуги</h1>
               </div>
             </div>
           </div>

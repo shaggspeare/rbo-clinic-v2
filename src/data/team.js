@@ -24,14 +24,14 @@ const team_data = [
     des: ' Providing insight-driven transformation to investment banks, wealth and asset mana, exchanges, Finance',
     social_links: [
       {
-        link: 'https://www.instagram.com/doctor_vyshhorod',
+        link: 'https://www.instagram.com/doctor_vyshhorod/',
         target: '_blank',
         icon: 'fab fa-instagram',
         name: 'Instagram',
         color: 'tp-instagram',
       },
       {
-        link: 'https://doc.ua/ua/doctor/vyshgorod/aleksandr-yachnik',
+        link: 'https://doc.ua/ua/doctor/vyshgorod/aleksandr-yachnik/',
         target: '_blank',
         icon: 'fa-solid fa-user-doctor',
         name: 'doc.ua',
@@ -57,7 +57,7 @@ const team_data = [
     des: ' Providing insight-driven transformation to investment banks, wealth and asset mana, exchanges, Finance',
     social_links: [
       {
-        link: 'https://www.instagram.com/vladyslav.massage',
+        link: 'https://www.instagram.com/vladyslav.massage/',
         target: '_blank',
         icon: 'fab fa-instagram',
         name: 'Instagram',

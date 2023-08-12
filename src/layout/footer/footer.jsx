@@ -13,21 +13,7 @@ const footer_content = {
         { name: 'Контакти', link: '/contact' },
         { name: 'Послуги', link: '/service' },
         { name: 'Результати лікування', link: '/results' },
-        { name: 'Про нас', link: '/about' },
-      ],
-    },
-    {
-      id: 2,
-      title: 'Швидкі контакти',
-      cls: 'footer-col-3',
-      links: [
-        { name: 'Пр.Шевченка 2Г, Вишгород' },
-        { name: '+38 (096) 305 00 04' },
-        { name: '+38 (093) 305 00 04' },
-        { name: '---------------------------------------' },
-        { name: 'Часи прийому:' },
-        { name: 'Пн-Пт: 9:00 - 19:00' },
-        { name: 'Сб: 9:00 - 15:00' },
+        { name: 'Про нас', link: '/#about' },
       ],
     },
   ],
@@ -38,6 +24,18 @@ const footer_content = {
       <Link href="/"> Рух без обмежень</Link>.<i> All Rights Reserved Copyright</i>
     </>
   ),
+};
+
+const additionalInfo = {
+  title: 'Швидкі контакти',
+  cls: 'footer-col-3',
+  rows: [
+    { name: 'Пр.Шевченка 2Г, Вишгород' },
+    { name: '---------------------------------------' },
+    { name: 'Часи прийому:' },
+    { name: 'Пн-Пт: 9:00 - 19:00' },
+    { name: 'Сб: 9:00 - 15:00' },
+  ],
 };
 
 const { footer_info, copy_right_text } = footer_content;
@@ -82,6 +80,24 @@ const Footer = () => {
                   </div>
                 </div>
               ))}
+              <div className="col-xl-4 col-lg-4 col-md-6">
+                <div className={`footer-widget ${additionalInfo.cls} mb-50 wow fadeInUp`} data-wow-delay=".4s">
+                  <h4 className="footer-widget__title mb-20">{additionalInfo.title}</h4>
+                  <div className="footer-widget__links">
+                    <ul>
+                      <li>
+                        <a href="tel:380963050004">+38 (096) 305 00 04</a>
+                      </li>
+                      <li>
+                        <a href="tel:380933050004"> +38 (093) 305 00 04 </a>
+                      </li>
+                      {additionalInfo.rows.map((row, i) => (
+                        <li key={i}><span>{row.name}</span></li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

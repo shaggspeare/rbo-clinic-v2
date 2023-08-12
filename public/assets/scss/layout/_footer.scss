@@ -45,12 +45,16 @@
         &:last-child {
           margin-bottom: 0;
         }
-        & a {
+        & a  {
           font-weight: 500;
           color: var(--tp-text-1);
           &:hover {
             color: var(--tp-icon-green);
           }
+        }
+        & span {
+          font-weight: 500;
+          color: var(--tp-text-1);
         }
       }
     }

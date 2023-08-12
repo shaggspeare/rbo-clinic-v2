@@ -11,6 +11,8 @@
       text-align: center;
     }
     & img {
+      width: 100%;
+      object-fit: cover;
       border-radius: 0 0 362px 341px;
       max-width: 100%;
     }

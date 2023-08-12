@@ -63,7 +63,7 @@ const HeroBanner = () => {
             <div className="col-xl-7">
               <div className="banner__content pt-145 mb-135">
                 <span className="banner__sub-title mb-20">{sub_title}</span>
-                <h2 className="banner__title mb-30">{title}</h2>
+                <h1 className="banner__title mb-30">{title}</h1>
                 <p>{des}</p>
                 <div className="banner__btn">
                   <Link className="tp-btn" href="#appointment-home">
