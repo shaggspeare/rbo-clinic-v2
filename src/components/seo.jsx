@@ -3,7 +3,7 @@ import Head from 'next/head';
 const SEO = ({ pageTitle, pageDesc }) => (
   <>
     <Head>
-      <title>{pageTitle && `${pageTitle} - Рух без обмежень - медична клініка, Вишгород`}</title>
+      <title>{pageTitle ? `${pageTitle}` : `Рух без обмежень - медична клініка, Вишгород`}</title>
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />
       <meta
         name="description"
