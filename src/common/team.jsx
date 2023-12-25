@@ -81,7 +81,7 @@ const Team = () => {
                     <div className="tp-team mb-50">
                       <div className="tp-team__thumb fix">
                         <a href={`team/${item.personalLink}`}>
-                          <Image src={item.img} alt="team-thumb" width={400} height={800}/>
+                          <Image src={item.img} alt="team-thumb" width={400} height={600}/>
                         </a>
                       </div>
                       <div className="tp-team__content">

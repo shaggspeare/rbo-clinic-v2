@@ -27,6 +27,10 @@
         width: 100%;
         object-fit: cover;
         @include transition(0.8s);
+
+        @media #{$md,$xs} {
+          height: 400px;
+        }
       }
     }
   }

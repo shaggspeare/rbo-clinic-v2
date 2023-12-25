@@ -51,7 +51,7 @@ const team_data = [
   },
   {
     id: 4,
-    img: '/assets/img/team/vlad.jpeg',
+    img: '/assets/img/team/vlad.jpg',
     name: 'Кумечко Владислав Віталійович',
     title: 'Реабілітолог, масажист',
     des: ' Providing insight-driven transformation to investment banks, wealth and asset mana, exchanges, Finance',
