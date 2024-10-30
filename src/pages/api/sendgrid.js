@@ -49,9 +49,12 @@ async function sendEmail(req, res) {
       </html>`
     });
 
+    const escapePhoneNumber = (phone) => {
+      return phone.replace(/\+/g, '\\+').replace(/[-\s()]/g, ''); // Escapes only the plus sign, removes other symbols
+    };
     // Escape special characters for MarkdownV2
     const escapedName = escapeMarkdownV2(req.body.name);
-    const escapedPhone = escapeMarkdownV2(req.body.phone);
+    const escapedPhone = escapePhoneNumber(req.body.phone);
     const escapedMessage = escapeMarkdownV2(req.body.message);
 
     // Send message to Telegram users
@@ -64,9 +67,13 @@ ${escapedMessage}
 `;
 
     // Loop through chat IDs and send the message to each user
-    chatIds.forEach(async (chatId) => {
-      await bot.sendMessage(chatId, message, { parse_mode: 'MarkdownV2' });
-    });
+    for (const chatId of chatIds) {
+      try {
+        await bot.sendMessage(chatId, message, { parse_mode: 'Markdown' });
+      } catch (error) {
+        console.error(`Failed to send message to ${chatId}:`, error.message);
+      }
+    }
 
     return res.status(200).json({ error: '' });
 
