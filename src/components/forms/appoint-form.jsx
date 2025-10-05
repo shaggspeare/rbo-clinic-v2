@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 
@@ -26,7 +27,7 @@ const AppointForm = () => {
   const onSubmit = async e => {
 
     setButtonText('Відправляємо');
-    const res = await fetch('/api/sendgrid', {
+    const res = await fetch('/api/telegram', {
       body: JSON.stringify({
         name: name,
         phone: phone,
